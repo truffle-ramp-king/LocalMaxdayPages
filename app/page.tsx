@@ -1,0 +1,15 @@
+import Link from 'next/link';
+import { ArrowRight, Check, Workflow } from 'lucide-react';
+import { SiteHeader } from '@/components/site-header';
+import { SiteFooter } from '@/components/site-footer';
+import { WorkflowCanvas } from '@/components/workflow-canvas';
+import { WorkflowPrompt } from '@/components/workflow-prompt';
+import { models, pageCards } from '@/lib/site-data';
+
+export default function Home() { return <main><div className="top-glow" /><SiteHeader />
+  <section className="home-hero"><p className="eyebrow"><Workflow size={15} /> Maxday AI · Replit for content workflows</p><h1>Create winning content workflows with AI</h1><p className="hero-subtitle">The connected AI workspace for creative studios, marketing teams, and AI influencer creators—from first idea to repeatable production.</p><p className="process-line">Ideation <span>→</span> Creation <span>→</span> Publication <span>→</span> Evaluation <span>→</span> Iteration</p><div className="model-row" aria-label="Supported AI model ecosystem"><span>Powered by</span>{models.map(model => <b key={model}>{model}</b>)}</div><WorkflowPrompt /></section>
+  <section className="canvas-showcase section-pad"><div className="section-heading split-heading"><div><p className="section-kicker">One canvas. Every creative step.</p><h2>Build the system behind the content</h2></div><p>Connect the models you already use, keep your creative logic visible, and turn successful experiments into production-ready workflows.</p></div><WorkflowCanvas /></section>
+  <section className="workflow-library section-pad" id="workflows"><div className="section-heading"><p className="section-kicker">Explore by outcome</p><h2>Start with the workflow your team needs</h2></div><div className="card-grid">{pageCards.map(({ slug, eyebrow, title, icon: Icon }) => <Link href={`/${slug}`} className="content-card" key={slug}><span className="card-icon"><Icon size={20} /></span><small>{eyebrow}</small><h3>{title}</h3><span className="card-link">Explore <ArrowRight size={16} /></span></Link>)}</div></section>
+  <section className="audience-section section-pad"><div><p className="section-kicker">For working creative teams</p><h2>More output.<br />More control.<br /><em>One shared system.</em></h2></div><div className="audience-list">{['AI video studios producing commercials, short drama, and music video', 'AI influencer creators keeping characters consistent across a full content calendar', 'Agencies developing concepts, virtual ambassadors, and storyboards for clients', 'Performance teams iterating on winning ad creative', 'Social teams turning long-form ideas into recurring content', 'Film teams using AI previz to align, pitch, and fund projects'].map(item => <p key={item}><Check size={18} />{item}</p>)}</div></section>
+  <section className="final-cta section-pad"><p className="eyebrow">One connected production workspace</p><h2>Turn your creative process into an advantage.</h2><a className="button button-light" href="https://maxday.ai/login">Start building <ArrowRight size={17} /></a></section><SiteFooter />
+</main>; }

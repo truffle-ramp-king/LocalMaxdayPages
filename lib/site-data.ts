@@ -1,0 +1,98 @@
+import { Bot, Boxes, Film, Layers3, Megaphone, PackageOpen, Users } from 'lucide-react';
+
+export const seoPages = {
+  'ai-workflow-builder': {
+    eyebrow: 'Visual AI workflow builder', title: 'Build repeatable AI content workflows, visually',
+    description: 'Connect the best AI models in one visual canvas. Turn a creative process into a reusable workflow your whole team can run, inspect, and improve.',
+    intent: 'an AI workflow builder for content creation', icon: Boxes, accent: 'violet',
+    proof: ['Visual node canvas', 'Multi-model workflows', 'Reusable creative systems'],
+    steps: [['Define the brief', 'Start with a campaign goal, reference, script, product, or existing creative.'], ['Connect the right models', 'Combine image, video, voice, music, and language models in one flow.'], ['Run, review, repeat', 'Keep the steps that work, replace the ones that do not, and rerun at scale.']],
+    bestFor: ['Creative studios standardizing production', 'Performance teams testing more variants', 'AI influencer creators keeping a virtual character consistent'],
+    influencerAngle: ['Lock the character system', 'Keep character references, voice, tone, visual rules, and approved disclosures inside one reusable production flow.'],
+    notFor: 'Teams looking for a single one-click generator with no control over the production process.',
+    faqs: [['What is an AI content workflow builder?', 'An AI content workflow builder is a visual system for connecting repeatable creative steps—such as scripting, image generation, video generation, voice, and publishing—into one reusable process.'], ['Can a workflow use more than one AI model?', 'Yes. Maxday is designed to connect specialized models in the same workflow so teams can choose the right model for each production step.'], ['Can a team reuse the same workflow?', 'Yes. A completed workflow can become a repeatable production template for new briefs, products, formats, and campaign variants.']],
+  },
+  'ai-social-video-generator': {
+    eyebrow: 'Social video production', title: 'Create social videos as a repeatable system',
+    description: 'Turn briefs, trends, AI influencer concepts, and brand assets into repeatable video workflows for TikTok, Reels, Shorts, and more.',
+    intent: 'an AI social video generator', icon: Film, accent: 'lime',
+    proof: ['Short & long-form formats', 'Multi-platform variants', 'Brand-consistent outputs'],
+    steps: [['Bring the source', 'Start from a trend, campaign brief, article, podcast, or product asset.'], ['Build the format', 'Define hooks, scenes, voice, captions, pacing, and aspect ratios once.'], ['Generate variants', 'Create a steady stream of platform-specific cuts without rebuilding the process.']],
+    bestFor: ['Social media teams', 'Digital marketing agencies', 'AI influencer creators building recurring series'],
+    influencerAngle: ['One persona, many formats', 'Reuse the same virtual creator identity while adapting hooks, scenes, captions, and aspect ratios for each social platform.'],
+    notFor: 'One-off edits that are already faster to complete in a traditional timeline editor.',
+    faqs: [['What can an AI social video workflow automate?', 'It can connect research, scripting, scene planning, image or video generation, voice, captions, and output variations in one repeatable process.'], ['Does Maxday replace a video editor?', 'Maxday focuses on orchestrating content production workflows. Teams can still pass outputs to their preferred editor for final craft and finishing.'], ['Can I create content for different aspect ratios?', 'A workflow can be designed to create variants for vertical, square, or landscape formats as part of the same production system.']],
+  },
+  'ai-video-for-agencies': {
+    eyebrow: 'For creative & advertising agencies', title: 'Move from client brief to production-ready concept faster',
+    description: 'Give strategy, creative, and production teams a shared AI workspace for storyboards, campaigns, virtual influencers, and repeatable client content.',
+    intent: 'an AI video platform for agencies', icon: Users, accent: 'violet',
+    proof: ['Brief-to-storyboard flows', 'Reusable client systems', 'Clear creative handoffs'],
+    steps: [['Translate the brief', 'Turn objectives and references into scripts, treatments, and visual directions.'], ['Develop the concept', 'Generate boards and sequences while keeping each creative decision visible.'], ['Hand off with context', 'Share the approved structure with an AI studio or live-action production partner.']],
+    bestFor: ['4A and independent agencies', 'In-house creative teams', 'Studios developing virtual influencers for brands'],
+    influencerAngle: ['Build a brand-owned virtual creator', 'Give strategy, account, and production teams one visible system for persona development, approvals, campaigns, and ongoing content.'],
+    notFor: 'Agencies that only need a chat assistant for occasional copywriting.',
+    faqs: [['How can agencies use Maxday?', 'Agencies can build repeatable workflows for concept development, storyboards, campaign variants, social content, and production handoffs.'], ['Can each client have a different workflow?', 'Yes. Teams can adapt the steps, references, models, and outputs to each client or campaign.'], ['Is Maxday useful before final production?', 'Yes. Storyboards and AI previz help teams align on a concept before committing to final AI-generated or live-action production.']],
+  },
+  'ecommerce-video-generator': {
+    eyebrow: 'For ecommerce growth teams', title: 'Turn product assets into a continuous video pipeline',
+    description: 'Transform product pages, brand assets, and winning ads into fresh ecommerce videos—including repeatable virtual influencer campaigns.',
+    intent: 'an AI ecommerce video generator', icon: PackageOpen, accent: 'lime',
+    proof: ['Product-to-video', 'Ad variant generation', 'Campaign-ready formats'],
+    steps: [['Add product context', 'Use product images, benefits, reviews, and campaign angles as structured inputs.'], ['Generate the creative', 'Create concepts, scripts, scenes, voice, and footage through connected models.'], ['Scale what performs', 'Turn a winning direction into new hooks, audiences, and formats.']],
+    bestFor: ['DTC growth teams', 'Performance marketers', 'Brands producing virtual influencer campaigns'],
+    influencerAngle: ['Put the product in a consistent creator world', 'Connect approved product facts to a recognizable virtual persona, then generate new campaign angles without rebuilding the character.'],
+    notFor: 'Catalog teams that only need static product-image resizing.',
+    faqs: [['What is an AI ecommerce video generator?', 'It is a system that uses product information and creative direction to generate advertising or social video assets, often in multiple campaign variations.'], ['Can I reuse a winning ad as a starting point?', 'Yes. A workflow can preserve the successful structure while varying hooks, product angles, scenes, or audiences.'], ['What inputs can a product video workflow use?', 'Typical inputs include product photos, page copy, customer reviews, campaign briefs, brand references, and existing ads.']],
+  },
+  'product-to-video': {
+    eyebrow: 'Workflow template', title: 'Turn a product page into a complete video concept',
+    description: 'Extract the strongest product story, generate a script and scenes, then route each step through the right image, video, voice, and music model.',
+    intent: 'a product-to-video AI workflow', icon: PackageOpen, accent: 'violet',
+    proof: ['Product insight extraction', 'Script & storyboard', 'Multi-model generation'],
+    steps: [['Product page', 'Collect benefits, differentiators, reviews, images, and offers.'], ['Creative strategy', 'Choose an audience, hook, proof point, and platform-specific structure.'], ['Production outputs', 'Generate the storyboard, clips, voice, music, captions, and export-ready assets.']],
+    bestFor: ['Product launches', 'DTC paid social', 'AI influencer product collaborations'],
+    influencerAngle: ['Turn each product into an on-brand creator brief', 'Feed product facts and campaign angles into a reusable virtual influencer workflow while preserving the persona, voice, and visual identity.'],
+    notFor: 'Products without approved claims, usable source assets, or a clear customer benefit.',
+    faqs: [['What is a product-to-video workflow?', 'A product-to-video workflow converts product information and media into a structured video concept, script, scenes, and production assets.'], ['Can I change the creative angle without rebuilding everything?', 'Yes. The reusable workflow keeps the production logic while letting you swap the audience, hook, offer, or visual direction.'], ['Does the workflow publish the final video automatically?', 'Publication can be part of a broader workflow when the destination and review process support it; teams can also export assets for approval and finishing.']],
+  },
+  'batch-video-generation': {
+    eyebrow: 'Workflow template', title: 'Generate video variations without repeating the setup',
+    description: 'Create one controlled production workflow, feed it new inputs, and produce batches of on-brand videos for campaigns, catalogs, or content series.',
+    intent: 'batch AI video generation', icon: Layers3, accent: 'lime',
+    proof: ['Batch inputs', 'Consistent creative rules', 'Faster iteration loops'],
+    steps: [['Lock the system', 'Define the parts that should stay consistent: structure, tone, models, and brand rules.'], ['Vary the inputs', 'Feed in new products, hooks, audiences, scripts, or source content.'], ['Review the batch', 'Compare outputs, identify winners, and evolve the reusable workflow.']],
+    bestFor: ['Performance creative testing', 'Multi-SKU catalogs', 'AI influencer content calendars'],
+    influencerAngle: ['Scale the calendar, not the inconsistencies', 'Batch new outfits, settings, hooks, and product stories while keeping the virtual creator recognizable across every output.'],
+    notFor: 'Productions where every output requires a completely unique process and art direction.',
+    faqs: [['What is batch AI video generation?', 'Batch AI video generation uses one repeatable production process to create multiple videos from changing inputs such as products, hooks, audiences, or scripts.'], ['How does batch generation stay on brand?', 'Teams can keep brand instructions, visual references, workflow steps, and model choices consistent across each run.'], ['Can the workflow be improved after a batch?', 'Yes. Teams can compare results, change a step or model, and apply the improved workflow to the next batch.']],
+  },
+  'ai-ugc-video-generator': {
+    eyebrow: 'Workflow template', title: 'Build a repeatable AI UGC ad workflow',
+    description: 'Go from product angle to AI influencer and creator-style scripts, scenes, voice, and ad variants in a workflow your team can inspect and reuse.',
+    intent: 'an AI UGC video generator', icon: Megaphone, accent: 'violet',
+    proof: ['Hook variations', 'Creator-style scripts', 'Performance iteration'],
+    steps: [['Choose the angle', 'Start from a pain point, benefit, review, objection, or winning campaign insight.'], ['Build the UGC structure', 'Generate hooks, talking points, scene directions, proof, and calls to action.'], ['Create & iterate', 'Produce variants and feed performance learnings into the next workflow run.']],
+    bestFor: ['Paid social teams', 'DTC brands', 'AI influencer and performance creative agencies'],
+    influencerAngle: ['Separate fictional persona from fabricated testimony', 'Use virtual creators for clearly framed branded storytelling without inventing a real customer, personal experience, or endorsement.'],
+    notFor: 'Deceptive endorsements or content that implies a real customer experience that did not happen.',
+    faqs: [['What is an AI UGC video workflow?', 'It is a repeatable process for turning product insights and campaign angles into creator-style scripts, scenes, voice, and video variants.'], ['Can I create several hooks from one concept?', 'Yes. Hook generation is a natural variable in the workflow, while approved product facts and brand direction stay consistent.'], ['Should AI UGC look like a real customer testimonial?', 'AI-generated ads should be reviewed for platform rules, brand policy, and truthful representation. They should not invent real customer experiences or endorsements.']],
+  },
+  'ai-influencer-generator': {
+    eyebrow: 'AI influencer content workflows', title: 'Build a consistent AI influencer content engine',
+    description: 'Create a virtual influencer, preserve the character across images and videos, and run a repeatable content workflow for social and brand campaigns.',
+    intent: 'an AI influencer generator and workflow', icon: Bot, accent: 'lime',
+    proof: ['Consistent virtual characters', 'Repeatable content series', 'Multi-model production'],
+    steps: [['Define the persona', 'Create the character brief, appearance references, voice, audience, content pillars, and disclosure rules.'], ['Build the content system', 'Connect ideation, scripting, images, video, voice, captions, review, and platform variants.'], ['Publish and learn', 'Run a repeatable calendar, measure the response, and update the workflow without losing the character identity.']],
+    bestFor: ['Independent AI influencer creators', 'Brands developing virtual ambassadors', 'Agencies operating character-led social channels'],
+    influencerAngle: ['A virtual character is a media system', 'Maxday turns the scattered steps behind an AI influencer into one visible, reusable production workflow—from character references to the next campaign batch.'],
+    notFor: 'Projects designed to impersonate a real person, hide material sponsorships, or mislead an audience about an invented customer experience.',
+    faqs: [['What is an AI influencer generator?', 'An AI influencer generator helps create a virtual character and the images or videos that feature them. A complete workflow also manages character consistency, scripts, voice, content formats, approvals, and repeat production.'], ['How do AI influencers stay visually consistent?', 'Creators use approved character references, repeatable prompts, model settings, and review steps. Maxday can keep those inputs and decisions connected in one reusable workflow.'], ['Can brands use a virtual influencer for product content?', 'Yes. Brands can create character-led product stories and campaigns, provided claims, sponsorships, synthetic media, and endorsements are disclosed and reviewed under applicable platform and advertising rules.']],
+  },
+} as const;
+
+export type SeoSlug = keyof typeof seoPages;
+export const seoSlugs = Object.keys(seoPages) as SeoSlug[];
+export const navPages = [['Platform', '/ai-workflow-builder'], ['Social video', '/ai-social-video-generator'], ['AI influencers', '/ai-influencer-generator'], ['For agencies', '/ai-video-for-agencies']] as const;
+export const models = ['Seedance', 'Kling', 'Veo', 'Nano Banana', 'GPT Image', 'ElevenLabs', 'Suno'];
+export const pageCards = Object.entries(seoPages).map(([slug, page]) => ({ slug: slug as SeoSlug, title: page.title, eyebrow: page.eyebrow, icon: page.icon }));
