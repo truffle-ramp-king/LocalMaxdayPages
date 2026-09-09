@@ -7,6 +7,8 @@ A local, App Router-compatible implementation of Maxday's public marketing site 
 | Route | Primary search intent |
 | --- | --- |
 | `/` | AI content workflow platform |
+| `/privacy-policy` | Privacy Policy |
+| `/terms-of-use` | Terms & Conditions |
 | `/ai-workflow-builder` | Visual AI content workflow builder |
 | `/ai-social-video-generator` | AI social video generator |
 | `/ai-video-for-agencies` | AI video tools for creative agencies |
@@ -52,3 +54,7 @@ Run `npm run build:pages` to export the site into `out/` with Next.js. Regular V
 The GitHub repository and Pages preview are public. Under Settings → Pages, select GitHub Actions as the source. The included workflow publishes pushes to main and supports manual runs.
 
 The expected URL after deployment is https://truffle-ramp-king.github.io/LocalMaxdayPages/. A private repository does not make the Pages website private.
+
+## Legal pages
+
+The legal routes use `components/legal-page.tsx` and `lib/legal-content.ts`. They identify MaxDay PTE LTD and state that MaxDay does not currently train AI models on uploaded content; future changes require notice and consent where applicable. Contact instructions use existing account support channels because no dedicated email has been supplied. These GitHub Pages routes retain the preview site’s noindex settings and do not change maxday.ai or its application agreements.

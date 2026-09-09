@@ -134,3 +134,32 @@ h3 { letter-spacing:-.025em; }
   .site-footer small { grid-column:auto; } .final-cta { width:calc(100% - 32px); padding:75px 22px; }
 }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition:none!important; } }
+
+/* Legal reading surface: shared with the existing MaxDay brand. */
+.legal-page { width:min(1180px,calc(100% - 48px)); margin:0 auto; padding:72px 0 96px; }
+.legal-heading { border-bottom:1px solid #2b344a; }
+.legal-heading h1 { font-size:clamp(2.5rem,6vw,4.75rem); letter-spacing:-.045em; margin:22px 0; line-height:1.08; }
+.legal-description { max-width:680px; color:#bac3d6; font-size:1.125rem; line-height:1.7; }
+.legal-date { color:#a0abc2; font-size:.875rem; margin:24px 0 32px; }
+.legal-tabs { display:flex; flex-wrap:wrap; gap:28px; }
+.legal-tabs a { padding:16px 0; color:#acb6cb; font-size:1rem; border-bottom:2px solid transparent; }
+.legal-tabs a[aria-current="page"] { color:#dfff42; border-color:#dfff42; }
+.legal-layout { display:grid; grid-template-columns:250px minmax(0,1fr); gap:72px; padding-top:48px; }
+.legal-contents nav { position:sticky; top:105px; }
+.legal-contents nav>p { color:#fff; margin:0 0 18px; font-size:.875rem; font-weight:600; }
+.legal-contents ol { padding-left:22px; margin:0; color:#aab5cb; font-size:.875rem; line-height:1.5; }
+.legal-contents li { padding:6px 0 6px 4px; }
+.legal-contents a:hover,.legal-back:hover { color:#dfff42; }
+.legal-body { min-width:0; max-width:780px; color:#bcc5d8; font-size:1rem; line-height:1.85; overflow-wrap:anywhere; }
+.legal-intro { margin-top:0; font-size:1.125rem; color:#e0e5ef; }
+.legal-body section { padding:26px 0; border-bottom:1px solid #283148; scroll-margin-top:100px; }
+.legal-body h2 { display:flex; align-items:baseline; gap:16px; color:#f5f7fc; font-size:1.5rem; letter-spacing:-.025em; line-height:1.4; margin:8px 0 20px; }
+.legal-body h2 span { color:#dfff42; font-size:.875rem; font-family:var(--font-geist-mono); }
+.legal-body p { margin:0 0 18px; }
+.legal-back { display:inline-block; margin-top:36px; color:#e0e5ef; }
+.legal-page a:focus-visible { outline:2px solid #dfff42; outline-offset:5px; border-radius:2px; }
+.legal-notice { padding:20px 24px; margin-bottom:28px; border:1px solid #707d39; border-radius:12px; background:#1e2630; }
+.legal-notice strong { color:#dfff42; }.legal-notice p { margin:8px 0 0; }
+@media(max-width:800px) { .legal-layout { grid-template-columns:1fr; gap:32px; }.legal-contents nav { position:static; }.legal-contents ol { columns:2; column-gap:28px; }.legal-contents li { break-inside:avoid; }.legal-page { padding-top:48px; } }
+@media(max-width:480px) { .legal-page { width:calc(100% - 32px); }.legal-contents ol { columns:1; }.legal-tabs { gap:20px; }.legal-body h2 { font-size:1.3rem; } }
+@media print { .site-header,.site-footer,.legal-contents,.legal-tabs,.legal-back { display:none; } .legal-page { width:100%;padding:0; }.legal-layout { display:block; }.legal-body,.legal-body h2,.legal-heading h1,.legal-description,.legal-date,.legal-intro { color:#000; }.legal-body { max-width:none; }.legal-body section { break-inside:avoid; } }
