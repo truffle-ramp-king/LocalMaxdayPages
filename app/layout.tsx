@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   description: 'Discover Instagram and TikTok inspiration with Content Scout, create with leading AI models, and collaborate in one shared workspace for social media managers.',
   applicationName: 'MaxDay AI',
   alternates: { canonical: 'https://www.maxday.ai/' },
-  openGraph: { title: 'MaxDay AI — Your social media team. One AI workspace.', description: 'Discover, create, and collaborate in one AI workspace for social media managers.', url: 'https://www.maxday.ai/', siteName: 'MaxDay AI', type: 'website', images: [{ url: '/product-workspace.png', width: 3452, height: 1808, alt: 'A real MaxDay project workspace' }] },
-  twitter: { card: 'summary_large_image', title: 'MaxDay AI — Your social media team. One AI workspace.', description: 'Discover, create, and collaborate in one AI workspace for social media managers.', images: ['/product-workspace.png'] },
+  openGraph: { title: 'MaxDay AI — Your social media team. One AI workspace.', description: 'Discover, create, and collaborate in one AI workspace for social media managers.', url: 'https://www.maxday.ai/', siteName: 'MaxDay AI', type: 'website', images: [{ url: '/fashion-campaign-workspace.jpg', width: 2521, height: 1280, alt: 'MaxDay luxury fashion campaign workspace' }] },
+  twitter: { card: 'summary_large_image', title: 'MaxDay AI — Your social media team. One AI workspace.', description: 'Discover, create, and collaborate in one AI workspace for social media managers.', images: ['/fashion-campaign-workspace.jpg'] },
 };
 
 export default function RootLayout({

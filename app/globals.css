@@ -84,7 +84,7 @@ section[id] { scroll-margin-top: 80px; }
 .feature-tags svg { color: var(--acid); }
 .detail-figure { min-width: 0; }
 .detail-viewport { height: 510px; overflow: hidden; border: 1px solid rgba(255,255,255,.14); border-radius: 10px; background: #101010; }
-.detail-viewport img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 23% 47%; }
+.detail-viewport img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 60% 47%; }
 .detail-figure figcaption { padding: 13px 2px 0; color: #898b96; font-size: 11px; }
 
 .scout-section { padding: 136px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: linear-gradient(117deg,#101219 0%,#171722 65%,#12141a 100%); }

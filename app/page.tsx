@@ -2,8 +2,7 @@ import Image from 'next/image';
 import { ArrowDownRight, ArrowRight, ArrowUpRight, AtSign, AudioLines, Blocks, Film, FolderOpen, ImageIcon, Link2, Search, UsersRound } from 'lucide-react';
 import { SiteHeader } from '@/components/site-header';
 import { SiteFooter } from '@/components/site-footer';
-import workspaceScreenshot from '@/public/product-workspace.png';
-import workflowDetail from '@/public/workflow-detail.png';
+import workspaceScreenshot from '@/public/fashion-campaign-workspace.jpg';
 import seedanceMark from '@/public/model-marks/seedance.svg';
 import klingMark from '@/public/model-marks/kling.svg';
 import googleMark from '@/public/model-marks/google.svg';
@@ -50,9 +49,9 @@ export default function Home() {
         <figure className="product-figure">
           <div className="product-frame">
             <div className="product-frame-top"><span className="live-dot" /><strong>Inside MaxDay</strong><span className="frame-divider" /> A real project workspace <span className="frame-right">WORKFLOW VIEW</span></div>
-            <Image src={workspaceScreenshot} alt="Actual Maxday workspace showing a shared project, a visual canvas, media assets, and connected creative steps" priority sizes="(max-width: 900px) 100vw, 1240px" className="workspace-image" />
+            <Image src={workspaceScreenshot} alt="MaxDay luxury fashion campaign workspace with product assets, character references, and connected campaign steps" priority sizes="(max-width: 900px) 100vw, 1240px" className="workspace-image" />
           </div>
-          <figcaption><span>A real MaxDay project: from a social video reference to new content.</span><a href="./product-workspace.png" target="_blank" rel="noopener noreferrer">View full size <ArrowUpRight size={14} aria-hidden="true" /></a></figcaption>
+          <figcaption><span>A real MaxDay project: from product assets to a fashion campaign.</span><a href="./fashion-campaign-workspace.jpg" target="_blank" rel="noopener noreferrer">View full size <ArrowUpRight size={14} aria-hidden="true" /></a></figcaption>
         </figure>
       </section>
 
@@ -77,7 +76,7 @@ export default function Home() {
 
       <section className="feature-section section-container feature-create" id="create" aria-labelledby="create-title">
         <div className="feature-copy"><p className="section-label"><span>01</span> CONTENT GENERATION</p><h2 id="create-title">Turn one idea into <em>more content.</em></h2><p>Draft captions, generate images and videos, and try different versions for your next campaign. Use leading AI models side by side and keep the outputs your team wants to build on.</p><div className="feature-tags"><span><ImageIcon size={16} /> Image</span><span><Film size={16} /> Video</span><span><AudioLines size={16} /> Audio</span></div></div>
-        <figure className="detail-figure"><div className="detail-viewport"><Image src={workflowDetail} alt="Real MaxDay workflow with image, video, and prompt nodes connected across a visual canvas" sizes="(max-width: 850px) 100vw, 650px" /></div><figcaption>A closer look at a real MaxDay canvas</figcaption></figure>
+        <figure className="detail-figure"><div className="detail-viewport"><Image src={workspaceScreenshot} alt="Fashion campaign workflow connecting clothing and accessories, a character sheet, a location, and a storyboard" sizes="(max-width: 850px) 100vw, 650px" /></div><figcaption>A closer look at a real MaxDay canvas</figcaption></figure>
       </section>
 
       <section className="scout-section" id="scout" aria-labelledby="scout-title"><div className="section-container scout-grid">
