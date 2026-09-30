@@ -1,26 +1,30 @@
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import localFont from 'next/font/local';
 import './globals.css';
 
-const geistSans = Geist({
+const geistSans = localFont({
+  src: './fonts/geist-latin.woff2',
   variable: '--font-geist-sans',
-  subsets: ['latin'],
+  display: 'swap',
+  weight: '100 900',
 });
 
-const geistMono = Geist_Mono({
+const geistMono = localFont({
+  src: './fonts/geist-mono-latin.woff2',
   variable: '--font-geist-mono',
-  subsets: ['latin'],
+  display: 'swap',
+  weight: '100 900',
 });
 
 export const metadata: Metadata = {
-  robots: { index: false, follow: false },
-  metadataBase: new URL('https://maxday.ai'),
-  title: { default: 'Maxday AI — Build winning AI content workflows', template: '%s | Maxday AI' },
-  description: 'Build repeatable AI workflows for video, social, advertising, virtual influencers, storyboards, and creative production in one connected workspace.',
-  applicationName: 'Maxday AI',
-  alternates: { canonical: 'https://maxday.ai' },
-  openGraph: { title: 'Maxday AI — Build winning AI content workflows', description: 'The connected AI workspace for creative professionals—from first idea to repeatable production.', url: 'https://maxday.ai', siteName: 'Maxday AI', type: 'website', images: [{ url: 'https://static-sz.drfun.cn/resource/image/39609afe757e20cbd038223ce5c69eec.jpg', width: 1200, height: 630, alt: 'Maxday AI content workflow workspace' }] },
-  twitter: { card: 'summary_large_image', title: 'Maxday AI — Build winning AI content workflows', description: 'The connected AI workspace for creative professionals—from first idea to repeatable production.', images: ['https://static-sz.drfun.cn/resource/image/39609afe757e20cbd038223ce5c69eec.jpg'] },
+  robots: process.env.GITHUB_PAGES === 'true' ? { index: false, follow: false } : { index: true, follow: true },
+  metadataBase: new URL('https://www.maxday.ai'),
+  title: 'MaxDay AI — Make what’s next together',
+  description: 'Discover Instagram and TikTok inspiration with Content Scout, create with leading AI models, and collaborate in one shared workspace for marketing teams.',
+  applicationName: 'MaxDay AI',
+  alternates: { canonical: 'https://www.maxday.ai/' },
+  openGraph: { title: 'MaxDay AI — Make what’s next together', description: 'Discover, create, and collaborate in one AI workspace for marketing teams.', url: 'https://www.maxday.ai/', siteName: 'MaxDay AI', type: 'website', images: [{ url: '/product-workspace.png', width: 3452, height: 1808, alt: 'A real MaxDay project workspace' }] },
+  twitter: { card: 'summary_large_image', title: 'MaxDay AI — Make what’s next together', description: 'Discover, create, and collaborate in one AI workspace for marketing teams.', images: ['/product-workspace.png'] },
 };
 
 export default function RootLayout({
@@ -34,7 +38,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'Maxday AI', url: 'https://maxday.ai', applicationCategory: 'MultimediaApplication', operatingSystem: 'Web', description: 'Maxday AI is a visual AI workflow builder for professional video, marketing, and virtual influencer content production.', audience: { '@type': 'BusinessAudience', audienceType: 'Creative studios, marketing teams, agencies, and professional creators' }, offers: { '@type': 'Offer', availability: 'https://schema.org/OnlineOnly' } }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ '@context': 'https://schema.org', '@type': 'SoftwareApplication', name: 'MaxDay AI', url: 'https://www.maxday.ai/', applicationCategory: 'MultimediaApplication', operatingSystem: 'Web', description: 'A shared workspace for marketing teams to discover social video references, generate content with AI models, and turn proven processes into reusable apps.', audience: { '@type': 'BusinessAudience', audienceType: 'Marketing teams and creative professionals' } }) }} />
       </body>
     </html>
   );

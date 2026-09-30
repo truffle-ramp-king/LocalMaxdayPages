@@ -1,7 +1,7 @@
 import Link from 'next/link';
+import { ArrowUpRight } from 'lucide-react';
 import { Mark } from './site-header';
-export function SiteFooter() { return <footer className="site-footer">
-  <div className="footer-brand"><Mark className="brand-mark" /><span>Maxday AI</span></div><p>One connected workspace for AI content production.</p>
-  <nav aria-label="Footer navigation"><Link href="/ai-workflow-builder">Platform</Link><Link href="/product-to-video">Workflows</Link><Link href="/privacy-policy">Privacy</Link><Link href="/terms-of-use">Terms</Link></nav>
-  <small>© 2026 MaxDay PTE LTD.</small>
-</footer>; }
+
+export function SiteFooter() {
+  return <footer className="site-footer"><div className="section-container footer-grid"><div className="footer-about"><Link href="/" className="brand" aria-label="MaxDay AI home"><Mark className="brand-mark" /><span>MaxDay AI</span></Link><p>Discover what moves people. Make what moves them next.</p></div><div className="footer-links"><div><strong>Explore</strong><Link href="/#platform">Platform</Link><Link href="/#scout">Content Scout</Link><Link href="/#teams">For teams</Link></div><div><strong>MaxDay</strong><a href="https://www.maxday.ai/recharge">Pricing</a><a href="https://www.maxday.ai/openapi/docs/get-start">API documentation <ArrowUpRight size={13} /></a><a href="https://www.maxday.ai/login">Log in</a></div><div><strong>Legal</strong><Link href="/privacy-policy">Privacy policy</Link><Link href="/terms-of-use">Terms of service</Link></div></div><div className="footer-bottom"><span>© 2026 MaxDay PTE LTD.</span><span>Made for teams making what&apos;s next.</span></div></div></footer>;
+}

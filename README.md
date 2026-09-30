@@ -1,60 +1,29 @@
-# Maxday SEO page prototype
+# MaxDay AI landing page
 
-A local, App Router-compatible implementation of Maxday's public marketing site and its first search-focused page cluster.
+A landing page for MaxDay AI, focused on three capabilities for marketing teams:
 
-## Routes
+- AI content generation with leading models in one workspace
+- Content Scout for finding and importing Instagram Reels and TikToks
+- Shared projects, collaborative workflows, reusable apps, and API access
 
-| Route | Primary search intent |
-| --- | --- |
-| `/` | AI content workflow platform |
-| `/privacy-policy` | Privacy Policy |
-| `/terms-of-use` | Terms & Conditions |
-| `/ai-workflow-builder` | Visual AI content workflow builder |
-| `/ai-social-video-generator` | AI social video generator |
-| `/ai-video-for-agencies` | AI video tools for creative agencies |
-| `/ecommerce-video-generator` | AI ecommerce video generator |
-| `/product-to-video` | Product-to-video AI workflow |
-| `/batch-video-generation` | Batch AI video generation |
-| `/ai-ugc-video-generator` | AI UGC video generator |
-| `/ai-influencer-generator` | AI influencer generator and content workflow |
+The page uses actual MaxDay product screenshots supplied by the team. Model marks and model names match the original MaxDay page. The pricing link points to MaxDay's existing pricing route, which can be updated independently.
 
-The project also generates `/robots.txt` and `/sitemap.xml`.
+The existing Privacy Policy and Terms & Conditions pages from the GitHub repository are preserved as local routes.
 
-## Local development
+## Develop
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
-Quality checks:
+## Check and export
 
 ```bash
 npm run lint
-npm run build
+npm run build:pages
 ```
 
-## Integration notes
+`build:pages` exports to `out/` for the existing GitHub Pages workflow. The preview uses the `/LocalMaxdayPages` base path by default and is marked `noindex`; the production build is indexable. The production canonical URL is `https://www.maxday.ai/`.
 
-- Page content and targeting live in `lib/site-data.ts`, making copy review and route expansion straightforward.
-- The seven landing pages share `components/seo-page.tsx`; each route receives unique metadata and FAQ structured data through `app/[slug]/page.tsx`.
-- Shared visual primitives are isolated in `components/site-header.tsx`, `components/site-footer.tsx`, and `components/workflow-canvas.tsx`.
-- Canonical URLs deliberately point at the intended future `maxday.ai` production paths. Change `metadataBase` and sitemap URLs for a staging deployment.
-- Calls to action point to the existing Maxday login instead of simulating product functionality.
-- The Open Graph image reuses Maxday's current production social asset; replace it if the brand team updates the campaign visual.
-
-This starter uses Vinext's App Router-compatible runtime for local portability. The source follows Next.js App Router conventions so the `app`, `components`, and `lib` changes can be transplanted into the production Next.js repository with minimal adaptation.
-
-## GitHub Pages coworker preview
-
-All pages inherit `noindex, nofollow` metadata. Crawling stays allowed so engines can read the tag. Noindex does not enforce access restrictions.
-
-Run `npm run build:pages` to export the site into `out/` with Next.js. Regular Vinext development and build commands remain available. The Pages build defaults to `/LocalMaxdayPages`; set `PAGES_BASE_PATH` to override it.
-
-The GitHub repository and Pages preview are public. Under Settings → Pages, select GitHub Actions as the source. The included workflow publishes pushes to main and supports manual runs.
-
-The expected URL after deployment is https://truffle-ramp-king.github.io/LocalMaxdayPages/. A private repository does not make the Pages website private.
-
-## Legal pages
-
-The legal routes use `components/legal-page.tsx` and `lib/legal-content.ts`. They identify MaxDay PTE LTD and state that MaxDay does not currently train AI models on uploaded content; future changes require notice and consent where applicable. Contact instructions use existing account support channels because no dedicated email has been supplied. These GitHub Pages routes retain the preview site’s noindex settings and do not change maxday.ai or its application agreements.
+The GitHub Actions workflow publishes pushes to `main`. The preview repository is `truffle-ramp-king/LocalMaxdayPages`; merging the landing page branch into `main` updates its GitHub Pages preview.
