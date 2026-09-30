@@ -5,7 +5,7 @@ import type { LegalDocument } from '@/lib/legal-content';
 
 export function LegalPage({ document }: { document: LegalDocument }) {
   return <><SiteHeader /><main id="legal-content" className="legal-page">
-    <header className="legal-heading"><p className="eyebrow">MAXDAY / LEGAL</p><h1>{document.title}</h1><p className="legal-description">{document.description}</p><p className="legal-date">Last updated: September 8, 2026</p>
+    <header className="legal-heading"><p className="eyebrow"><span className="eyebrow-dot" /> MAXDAY / LEGAL</p><h1>{document.title}</h1><p className="legal-description">{document.description}</p><p className="legal-date">Last updated: September 8, 2026</p>
       <nav className="legal-tabs" aria-label="Legal documents"><Link href="/privacy-policy" aria-current={document.kind === 'privacy' ? 'page' : undefined}>Privacy Policy</Link><Link href="/terms-of-use" aria-current={document.kind === 'terms' ? 'page' : undefined}>Terms &amp; Conditions</Link></nav>
     </header>
     <div className="legal-layout"><aside className="legal-contents"><nav aria-label="On this page"><p>On this page</p><ol>{document.sections.map(section => <li key={section.id}><a href={`#${section.id}`}>{section.title}</a></li>)}</ol></nav></aside>
