@@ -6,7 +6,7 @@ A landing page for MaxDay AI, focused on three capabilities for marketing teams:
 - Content Scout for finding and importing Instagram Reels and TikToks
 - Shared projects, collaborative workflows, reusable apps, and API access
 
-The page uses actual MaxDay product screenshots supplied by the team. Model marks and model names match the original MaxDay page. The pricing link points to MaxDay's existing pricing route, which can be updated independently.
+The page uses actual MaxDay product screenshots supplied by the team. Model marks and model names match the original MaxDay page. The public `/pricing` page includes monthly and annual plans, the credit top-up, and model credit references. Plan and purchase buttons lead to MaxDay login.
 
 The existing Privacy Policy and Terms & Conditions pages from the GitHub repository are preserved as local routes.
 

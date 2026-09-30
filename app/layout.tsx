@@ -19,12 +19,12 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   robots: process.env.GITHUB_PAGES === 'true' ? { index: false, follow: false } : { index: true, follow: true },
   metadataBase: new URL('https://www.maxday.ai'),
-  title: 'MaxDay AI — Make what’s next together',
+  title: 'MaxDay AI — Your whole creative team. One AI workspace.',
   description: 'Discover Instagram and TikTok inspiration with Content Scout, create with leading AI models, and collaborate in one shared workspace for marketing teams.',
   applicationName: 'MaxDay AI',
   alternates: { canonical: 'https://www.maxday.ai/' },
-  openGraph: { title: 'MaxDay AI — Make what’s next together', description: 'Discover, create, and collaborate in one AI workspace for marketing teams.', url: 'https://www.maxday.ai/', siteName: 'MaxDay AI', type: 'website', images: [{ url: '/product-workspace.png', width: 3452, height: 1808, alt: 'A real MaxDay project workspace' }] },
-  twitter: { card: 'summary_large_image', title: 'MaxDay AI — Make what’s next together', description: 'Discover, create, and collaborate in one AI workspace for marketing teams.', images: ['/product-workspace.png'] },
+  openGraph: { title: 'MaxDay AI — Your whole creative team. One AI workspace.', description: 'Discover, create, and collaborate in one AI workspace for marketing teams.', url: 'https://www.maxday.ai/', siteName: 'MaxDay AI', type: 'website', images: [{ url: '/product-workspace.png', width: 3452, height: 1808, alt: 'A real MaxDay project workspace' }] },
+  twitter: { card: 'summary_large_image', title: 'MaxDay AI — Your whole creative team. One AI workspace.', description: 'Discover, create, and collaborate in one AI workspace for marketing teams.', images: ['/product-workspace.png'] },
 };
 
 export default function RootLayout({
