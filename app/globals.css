@@ -351,24 +351,10 @@ section[id] { scroll-margin-top: 80px; }
 .api-discovery { padding: 24px; border: 1px solid #353740; border-radius: 13px; background: linear-gradient(145deg,#181b24,#12141b); }
 .api-diagram-heading { display: flex; align-items: center; gap: 9px; color: #9298a6; font: 9px var(--font-geist-mono),monospace; letter-spacing: .11em; }
 .api-diagram-heading > svg { margin-left: auto; color: #797f8f; }
-.api-seed { display: flex; gap: 14px; align-items: center; width: fit-content; margin: 26px auto 0; padding: 16px 22px; border: 1px solid #536141; border-radius: 8px; background: #dcf58f09; }
-.api-diagram-icon { display: grid; place-items: center; color: var(--acid); }
-.api-seed strong { display: block; font-size: 14px; font-weight: 550; }
-.api-seed div > span { display: block; margin-top: 5px; color: #999f8f; font-size: 10px; }
-.api-branches { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 9px; position: relative; margin: 44px 0 34px; }
-.api-branches::before,.api-branches::after { content: ''; position: absolute; left: 16.66%; right: 16.66%; height: 19px; border: solid #4a505b; border-width: 1px 1px 0; top: -19px; }
-.api-branches::after { top: auto; bottom: -19px; transform: rotate(180deg); }
-.api-branches > div { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 9px; min-height: 110px; padding: 12px 5px; text-align: center; border: 1px solid #343945; border-radius: 7px; background: #1c202a; }
-.api-branches > div:nth-child(2)::before,.api-branches > div:nth-child(2)::after { content: ''; position: absolute; width: 1px; height: 44px; background: #4a505b; top: -45px; }
-.api-branches > div:nth-child(2)::after { height: 35px; top: auto; bottom: -35px; }
-.api-branches svg { color: #b1b6c7; }
-.api-branches strong { color: #d7dae1; font-size: 11px; font-weight: 500; line-height: 1.4; }
-.api-branches span { color: #828a9b; font-size: 9px; line-height: 1.4; }
-.api-discovery-steps { position: relative; padding: 0; margin: 0; list-style: none; }
-.api-discovery-steps li { display: flex; gap: 13px; align-items: center; padding: 14px 0; border-top: 1px solid #ffffff0c; }
-.api-discovery-steps li > span { display: grid; place-items: center; width: 29px; height: 29px; border: 1px solid #414755; border-radius: 50%; flex: none; color: #a7b0c3; font: 9px var(--font-geist-mono),monospace; }
-.api-discovery-steps strong { font-size: 12px; font-weight: 550; color: #d9dce2; }
-.api-discovery-steps p { margin-top: 4px; font-size: 10px; line-height: 1.5; color: #888f9e; }
+.api-discovery-steps { position: relative; padding: 0; margin: 25px 0 0; list-style: none; }
+.api-discovery-steps li { display: flex; gap: 17px; align-items: center; min-height: 82px; padding: 20px 0; border-top: 1px solid #ffffff0c; }
+.api-discovery-steps li > span { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid #536141; border-radius: 50%; flex: none; color: var(--acid); background: #dcf58f09; font: 10px var(--font-geist-mono),monospace; }
+.api-discovery-steps strong { font-size: 16px; font-weight: 550; color: #d9dce2; line-height: 1.5; }
 .api-discovery figcaption { display: flex; gap: 9px; align-items: center; padding: 15px 0 0; margin-top: 4px; border-top: 1px solid #4b573e; color: #b9c99c; font-size: 11px; }
 .api-bridge { display: flex; align-items: center; gap: 28px; padding: 34px 32px; border: 1px solid #343b2d; border-radius: 10px; background: #dcf58f06; margin-bottom: 110px; }
 .api-bridge-icon { display: grid; place-items: center; flex: none; width: 64px; height: 64px; border: 1px solid #5d7144; border-radius: 50%; color: var(--acid); }
@@ -445,9 +431,6 @@ section[id] { scroll-margin-top: 80px; }
   .api-section-copy h2,.api-models-intro h2,.api-closing h2 { font-size: 46px; }
   .api-section-copy > p:not(.section-label),.api-models-intro > p { font-size: 15px; }
   .api-discovery { padding: 18px 13px; }
-  .api-branches { gap: 6px; }
-  .api-branches strong { font-size: 10px; }
-  .api-branches span { font-size: 8px; }
   .api-bridge { padding: 25px 21px; gap: 18px; }
   .api-bridge-icon { width: 43px; height: 43px; }
   .api-bridge > div { flex-basis: 100%; }

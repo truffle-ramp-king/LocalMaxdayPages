@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowDownRight, ArrowRight, ArrowUpRight, AtSign, Check, CircleDot, Code2, Layers3, Network, RefreshCw, ScanLine, Sparkles, TrendingUp, UsersRound } from 'lucide-react';
+import { ArrowDownRight, ArrowRight, ArrowUpRight, Check, CircleDot, Code2, Layers3, RefreshCw, ScanLine, Sparkles, TrendingUp } from 'lucide-react';
 import { SiteHeader } from '@/components/site-header';
 import { SiteFooter } from '@/components/site-footer';
 import { ApiModelCatalog } from '@/components/api-model-catalog';
@@ -18,20 +18,14 @@ export const metadata: Metadata = {
 
 function TrendDiscovery() {
   return <figure className="api-discovery" aria-labelledby="discovery-caption">
-    <div className="api-diagram-heading"><span className="live-dot" /><span>HOW DISCOVERY WORKS</span><Network size={16} aria-hidden="true" /></div>
-    <div className="api-seed"><span className="api-diagram-icon"><UsersRound size={21} aria-hidden="true" /></span><div><strong>30–50 seed accounts</strong><span>Your starting point for discovery</span></div></div>
-    <div className="api-branches">
-      <div><UsersRound size={18} aria-hidden="true" /><strong>Similar accounts</strong><span>On Instagram</span></div>
-      <div><AtSign size={18} aria-hidden="true" /><strong>Accounts they follow</strong><span>Explore their network</span></div>
-      <div><Network size={18} aria-hidden="true" /><strong>Tags & collaborators</strong><span>Find connected creators</span></div>
-    </div>
+    <div className="api-diagram-heading"><span className="live-dot" /><span>YOUR DAILY TREND FEED</span><TrendingUp size={16} aria-hidden="true" /></div>
     <ol className="api-discovery-steps">
-      <li><span>01</span><div><strong>Build a pool of candidate accounts</strong><p>Bring the discovery paths together.</p></div></li>
-      <li><span>02</span><div><strong>Analyze the latest 10–20 posts</strong><p>Look at the recent content from each account.</p></div></li>
-      <li><span>03</span><div><strong>Classify for relevance</strong><p>Identify the accounts that fit your business.</p></div></li>
-      <li><span>04</span><div><strong>Monitor the best matches</strong><p>Keep promising accounts in view.</p></div></li>
+      <li><span>01</span><strong>Competitor accounts in your niche</strong></li>
+      <li><span>02</span><strong>AI finds similar accounts</strong></li>
+      <li><span>03</span><strong>Automatically collect content every day</strong></li>
+      <li><span>04</span><strong>Sort by performance</strong></li>
     </ol>
-    <figcaption id="discovery-caption"><RefreshCw size={15} aria-hidden="true" /> Repeat periodically. Keep discovering.</figcaption>
+    <figcaption id="discovery-caption"><RefreshCw size={15} aria-hidden="true" /> Fresh content. Ranked by performance.</figcaption>
   </figure>;
 }
 
@@ -44,7 +38,7 @@ export default function ApiPage() {
 
     <nav className="api-offerings section-container" id="api-offerings" aria-label="Explore API categories"><a href="#social-trend"><span>01</span><div><strong>Social Trend API</strong><p>Discover relevant viral content faster.</p></div><ArrowDownRight size={22} aria-hidden="true" /></a><a href="#models-api"><span>02</span><div><strong>Models API</strong><p>Create through the models you choose.</p></div><ArrowDownRight size={22} aria-hidden="true" /></a></nav>
 
-    <section className="api-trend-section section-container" id="social-trend" aria-labelledby="api-trend-title"><div className="api-section-copy"><p className="section-label"><span>01</span> SOCIAL TREND API</p><h2 id="api-trend-title">Find the posts<br />that <em>move people.</em></h2><p>Discover trends and viral posts that matter to your business. Start with a set of accounts, expand through their networks, and monitor the creators most relevant to you.</p><p>The Social Trend API brings this discovery into your own workflows, giving your team a faster way to find inspiration for content at scale.</p><ul className="api-benefits"><li><Check size={16} aria-hidden="true" /> Discover beyond the accounts you already know</li><li><Check size={16} aria-hidden="true" /> Focus on content relevant to your business</li><li><Check size={16} aria-hidden="true" /> Keep finding fresh creative starting points</li></ul></div><TrendDiscovery /></section>
+    <section className="api-trend-section section-container" id="social-trend" aria-labelledby="api-trend-title"><div className="api-section-copy"><p className="section-label"><span>01</span> SOCIAL TREND API</p><h2 id="api-trend-title">Find the posts<br />that <em>move people.</em></h2><p>Discover trends and viral posts that matter to your business. Start with competitor accounts in your niche, collect fresh content daily, and sort posts by performance.</p><p>The Social Trend API brings this discovery into your own workflows, giving your team a faster way to find inspiration for content at scale.</p><ul className="api-benefits"><li><Check size={16} aria-hidden="true" /> Discover beyond the accounts you already know</li><li><Check size={16} aria-hidden="true" /> Focus on content relevant to your business</li><li><Check size={16} aria-hidden="true" /> Keep finding fresh creative starting points</li></ul></div><TrendDiscovery /></section>
 
     <section className="api-bridge section-container" aria-labelledby="api-bridge-title"><span className="api-bridge-icon"><Layers3 size={27} aria-hidden="true" /></span><div><p className="section-label">FROM DISCOVERY TO CREATION</p><h2 id="api-bridge-title">Turn a trend into your next idea.</h2><p>Take the viral posts you discover into the MaxDay platform. Use them as a starting point to recreate content, explore variations, and build a process you can run again.</p></div><Link href="/#platform" className="api-inline-link">Explore the platform <ArrowUpRight size={17} aria-hidden="true" /></Link></section>
 
