@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { AudioLines, Film, ImageIcon, Music2, ScanLine, WandSparkles } from 'lucide-react';
+import { AudioLines, Film, ImageIcon, Music2, ScanLine, Scaling, WandSparkles } from 'lucide-react';
 import { apiCapabilities, type ApiCapability } from '@/lib/api-models';
 import googleMark from '@/public/model-marks/google.svg';
 import openaiMark from '@/public/model-marks/openai.svg';
@@ -11,7 +11,7 @@ import klingMark from '@/public/model-marks/kling.svg';
 import elevenlabsMark from '@/public/model-marks/elevenlabs.svg';
 import sunoMark from '@/public/model-marks/suno.svg';
 
-const capabilityIcons = { images: ImageIcon, inpainting: WandSparkles, panoramas: ScanLine, video: Film, speech: AudioLines, music: Music2 };
+const capabilityIcons = { images: ImageIcon, inpainting: WandSparkles, panoramas: ScanLine, upscale: Scaling, video: Film, speech: AudioLines, music: Music2 };
 
 function ModelMark({ name }: { name: string }) {
   const mark = name.startsWith('nano-banana') || name === 'lyria' ? googleMark
@@ -20,7 +20,7 @@ function ModelMark({ name }: { name: string }) {
     : name.startsWith('kling') ? klingMark
     : name === 'elevenlabs' ? elevenlabsMark
     : name === 'suno' ? sunoMark : null;
-  return <span className="api-model-mark" aria-hidden="true">{mark ? <Image src={mark} alt="" width={22} height={22} unoptimized /> : <span>{name.startsWith('wan') ? 'W' : 'M'}</span>}</span>;
+  return <span className="api-model-mark" aria-hidden="true">{mark ? <Image src={mark} alt="" width={22} height={22} unoptimized /> : <span>{name === 'Upscale' ? 'U' : name.startsWith('wan') ? 'W' : 'M'}</span>}</span>;
 }
 
 export function ApiModelCatalog() {
