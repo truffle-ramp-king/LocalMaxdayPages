@@ -341,21 +341,31 @@ section[id] { scroll-margin-top: 80px; }
 .api-offerings strong { font-size: 19px; font-weight: 550; letter-spacing: -.025em; }
 .api-offerings p { margin-top: 7px; color: #9497a4; font-size: 13px; }
 .api-offerings svg { margin-left: auto; color: #c5c8cd; }
-.api-trend-section { display: grid; grid-template-columns: .95fr 1.05fr; align-items: center; gap: 100px; padding-top: 130px; padding-bottom: 100px; }
+.api-trend-section { display: grid; grid-template-columns: .8fr 1.2fr; align-items: center; gap: 70px; padding-top: 130px; padding-bottom: 100px; }
 .api-section-copy h2,.api-models-intro h2,.api-closing h2 { margin: 25px 0; font-size: clamp(44px,4.6vw,64px); line-height: 1.05; font-weight: 570; letter-spacing: -.06em; }
 .api-section-copy > p:not(.section-label) { color: #afb2bc; font-size: 16px; line-height: 1.8; }
 .api-section-copy > p + p { margin-top: 17px; }
 .api-benefits { padding: 0; margin: 31px 0 0; list-style: none; display: grid; gap: 17px; }
 .api-benefits li { display: flex; align-items: flex-start; gap: 11px; color: #c5c8ce; font-size: 13px; line-height: 1.6; }
 .api-benefits svg { color: var(--acid); flex: none; margin-top: 2px; }
-.api-discovery { padding: 24px; border: 1px solid #353740; border-radius: 13px; background: linear-gradient(145deg,#181b24,#12141b); }
-.api-diagram-heading { display: flex; align-items: center; gap: 9px; color: #9298a6; font: 9px var(--font-geist-mono),monospace; letter-spacing: .11em; }
-.api-diagram-heading > svg { margin-left: auto; color: #797f8f; }
-.api-discovery-steps { position: relative; padding: 0; margin: 25px 0 0; list-style: none; }
-.api-discovery-steps li { display: flex; gap: 17px; align-items: center; min-height: 82px; padding: 20px 0; border-top: 1px solid #ffffff0c; }
-.api-discovery-steps li > span { display: grid; place-items: center; width: 34px; height: 34px; border: 1px solid #536141; border-radius: 50%; flex: none; color: var(--acid); background: #dcf58f09; font: 10px var(--font-geist-mono),monospace; }
-.api-discovery-steps strong { font-size: 16px; font-weight: 550; color: #d9dce2; line-height: 1.5; }
-.api-discovery figcaption { display: flex; gap: 9px; align-items: center; padding: 15px 0 0; margin-top: 4px; border-top: 1px solid #4b573e; color: #b9c99c; font-size: 11px; }
+.api-discovery { min-width: 0; overflow: hidden; border: 1px solid #353740; border-radius: 13px; background: linear-gradient(145deg,#181b24,#12141b); }
+.api-diagram-heading { display: flex; align-items: center; gap: 9px; padding: 19px 21px; color: #a2a9b9; font: 9px var(--font-geist-mono),monospace; letter-spacing: .1em; }
+.api-scout-real { margin-left: auto; color: #747d8d; font-size: 8px; letter-spacing: .08em; }
+.api-scout-screen { display: block; aspect-ratio: 1.35; overflow: hidden; border-top: 1px solid #353740; border-bottom: 1px solid #353740; background: #202225; }
+.api-scout-screen img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 58% 0; transition: filter .2s; }
+.api-scout-screen:hover img { filter: brightness(1.06); }
+.api-scout-source { display: flex; gap: 12px; align-items: center; justify-content: space-between; padding: 15px 20px; color: #969dad; font-size: 10px; line-height: 1.6; }
+.api-scout-source a { display: inline-flex; gap: 5px; align-items: center; flex: none; color: #c3cdb2; }
+.api-scout-connection { position: relative; margin: 0 20px; padding: 22px 0; border-top: 1px solid #353740; }
+.api-scout-api { display: flex; align-items: center; justify-content: center; gap: 9px; width: fit-content; margin: auto; padding: 12px 18px; border: 1px solid #536141; border-radius: 7px; background: #dcf58f0a; color: var(--acid); font: 10px var(--font-geist-mono),monospace; letter-spacing: .04em; }
+.api-scout-clients { position: relative; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 13px; margin: 28px 0 0; }
+.api-scout-clients::before { content: ''; position: absolute; left: 25%; right: 25%; top: -14px; height: 14px; border: solid #5a654b; border-width: 1px 1px 0; }
+.api-scout-clients::after { content: ''; position: absolute; left: 50%; top: -28px; height: 14px; width: 1px; background: #5a654b; }
+.api-scout-clients > div { display: flex; align-items: center; justify-content: center; gap: 11px; padding: 18px 12px; border: 1px solid #3b404d; border-radius: 7px; background: #ffffff04; }
+.api-scout-clients img { display: block; width: 23px; height: 23px; object-fit: contain; }
+.api-scout-clients strong { color: #d7dce7; font-size: 15px; font-weight: 550; letter-spacing: -.025em; }
+.api-discovery figcaption { display: grid; gap: 8px; padding: 19px 21px; border-top: 1px solid #353740; color: #c3d0ae; font-size: 12px; line-height: 1.6; }
+.api-discovery figcaption small { color: #8e95a5; font-size: 10px; }
 .api-bridge { display: flex; align-items: center; gap: 28px; padding: 34px 32px; border: 1px solid #343b2d; border-radius: 10px; background: #dcf58f06; margin-bottom: 110px; }
 .api-bridge-icon { display: grid; place-items: center; flex: none; width: 64px; height: 64px; border: 1px solid #5d7144; border-radius: 50%; color: var(--acid); }
 .api-bridge h2 { margin: 11px 0; font-size: 26px; font-weight: 540; letter-spacing: -.04em; }
@@ -412,7 +422,7 @@ section[id] { scroll-margin-top: 80px; }
   .api-offerings > a { padding: 24px 20px; gap: 15px; }
   .api-offerings p { font-size: 11px; }
   .api-trend-section { grid-template-columns: 1fr; gap: 50px; padding-top: 85px; padding-bottom: 60px; }
-  .api-discovery { max-width: 570px; }
+  .api-discovery { max-width: 680px; width: 100%; }
   .api-bridge { margin-bottom: 75px; }
   .api-models-section { padding: 80px 0; }
   .api-models-intro { grid-template-columns: 1fr; gap: 25px; }
@@ -430,7 +440,14 @@ section[id] { scroll-margin-top: 80px; }
   .api-offerings p { font-size: 12px; }
   .api-section-copy h2,.api-models-intro h2,.api-closing h2 { font-size: 46px; }
   .api-section-copy > p:not(.section-label),.api-models-intro > p { font-size: 15px; }
-  .api-discovery { padding: 18px 13px; }
+  .api-diagram-heading { padding: 16px; }
+  .api-scout-real { display: none; }
+  .api-scout-screen { aspect-ratio: 1; }
+  .api-scout-source { padding: 14px 16px; flex-wrap: wrap; gap: 7px; }
+  .api-scout-connection { margin: 0 16px; }
+  .api-scout-api { font-size: 9px; padding: 12px; }
+  .api-scout-clients strong { font-size: 13px; }
+  .api-discovery figcaption { padding: 16px; }
   .api-bridge { padding: 25px 21px; gap: 18px; }
   .api-bridge-icon { width: 43px; height: 43px; }
   .api-bridge > div { flex-basis: 100%; }
