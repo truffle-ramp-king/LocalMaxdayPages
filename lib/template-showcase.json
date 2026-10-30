@@ -1,0 +1,586 @@
+[
+  {
+    "id": "014A478BADFED4F75A351FF42D2DD0DC",
+    "title": "Dark Cinematic Product Ad",
+    "categories": [
+      "Advertising",
+      "Fashion",
+      "Beauty",
+      "CTV Ads",
+      "E-commerce",
+      "Electronics",
+      "Product Commercials"
+    ],
+    "poster": "/template-previews/014a478badfed4f75a351ff42d2dd0dc.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/612b49d1ab2a61fd2d99113be83369f1c9a59e6368d6864ab19ef1421a71484c.mov",
+    "preview": "/template-previews/014a478badfed4f75a351ff42d2dd0dc.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/e89a1837f8e1a7aba706e73863eabbf8.jpg"
+  },
+  {
+    "id": "C13E437A44CDF8EA479FCC72A6794C5D",
+    "title": "Virtual Try-On Sneakers",
+    "categories": [
+      "UGC",
+      "E-commerce",
+      "Shoes",
+      "Virtual Try-On"
+    ],
+    "poster": "/template-previews/c13e437a44cdf8ea479fcc72a6794c5d.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/a2a3d1fe03c105b257e7f715be41e88d6df0df8c3b1a972e7fe04d61bc51e512.mov",
+    "preview": "/template-previews/c13e437a44cdf8ea479fcc72a6794c5d.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/873a0a420f82d851c312960fa6668f77.jpg"
+  },
+  {
+    "id": "6C2B7AC0C33381545563340AF5FE2367",
+    "title": "Luxury Beat Drop",
+    "categories": [
+      "Products",
+      "Hook",
+      "Cars",
+      "E-commerce",
+      "Watches"
+    ],
+    "poster": "/template-previews/6c2b7ac0c33381545563340af5fe2367.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/aec322c0630f11962f51b5687bc60d33f57b4d47724532d723d6a661eaa7cbe3.mov",
+    "preview": "/template-previews/6c2b7ac0c33381545563340af5fe2367.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/d7a21450d4b16e34f559bc033e613082.jpg"
+  },
+  {
+    "id": "90751D3A53CE1D3DCB5984BF7A506838",
+    "title": "Sakerplus",
+    "categories": [
+      "Advertising"
+    ],
+    "poster": "/template-previews/90751d3a53ce1d3dcb5984bf7a506838.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/5e3952422059fc44a412a1dbff2c245148d2891be8d10e2617afd2f5259f2a2a.mov",
+    "preview": "/template-previews/90751d3a53ce1d3dcb5984bf7a506838.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/0a2a985be675205935421d79b0e277d4.jpg"
+  },
+  {
+    "id": "E1BEE0436CE41CBEEF52040F981792D8",
+    "title": "Seasonal Pup Swaps",
+    "categories": [
+      "Animals",
+      "Hook",
+      "E-commerce",
+      "Pet Products"
+    ],
+    "poster": "/template-previews/e1bee0436ce41cbeef52040f981792d8.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/23a48b8ab3bcc2a394195d7e5f8c9976b9edc32300025fb0341fe1180ce54772.mov",
+    "preview": "/template-previews/e1bee0436ce41cbeef52040f981792d8.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/a9f9724e03bb556915414cdfeb92a613.jpg"
+  },
+  {
+    "id": "064E22C4CD46A4D061E90FFB9C027C56",
+    "title": "Skydiving Challenge POV",
+    "categories": [
+      "Advertising",
+      "Viral Now",
+      "Hook",
+      "UGC",
+      "Action",
+      "Apps",
+      "E-commerce",
+      "Outdoor",
+      "Sports"
+    ],
+    "poster": "/template-previews/064e22c4cd46a4d061e90ffb9c027c56.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/8badfc3e849dbc90866e6f0dbb70f9d10c99da104e9ae45b6357544ac6aa28db.mov",
+    "preview": "/template-previews/064e22c4cd46a4d061e90ffb9c027c56.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/5cdc8e32d460801722389eda5086a35b.jpg"
+  },
+  {
+    "id": "089844D241DCE44C08A4E286CA57B874",
+    "title": "Corporate Duo Swap",
+    "categories": [
+      "Viral Now"
+    ],
+    "poster": "/template-previews/089844d241dce44c08a4e286ca57b874.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/681d7b7479ebad68be8905d0d664d7ab68b2bf007dff6bc7f817ad7b60a7b5a2.mov",
+    "preview": "/template-previews/089844d241dce44c08a4e286ca57b874.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/5615ead6028c25ea5aa1cf1d0a70ff89.jpg"
+  },
+  {
+    "id": "677E0DFF3BB1163AB0BE239A51A4F6CB",
+    "title": "Suit Dance",
+    "categories": [
+      "Dance"
+    ],
+    "poster": "/template-previews/677e0dff3bb1163ab0be239a51a4f6cb.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/d063d454dc1b289c0db45f49e0485ed4ef28565ee2aa40e5eadd2970f47d5e34.mov",
+    "preview": "/template-previews/677e0dff3bb1163ab0be239a51a4f6cb.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/d8806cbe869ac058d8dd658ce53cb7e4.jpg"
+  },
+  {
+    "id": "B206D5C18A1E490CC27B3C8E839E1B20",
+    "title": "Luxury Car Exit",
+    "categories": [
+      "Vehicles"
+    ],
+    "poster": "/template-previews/b206d5c18a1e490cc27b3c8e839e1b20.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/d1904c8088639b84f5d0ae8290a6a9a4f645a7024d77a43daa727f740581f756.mov",
+    "preview": "/template-previews/b206d5c18a1e490cc27b3c8e839e1b20.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/3b108d10457cc6ddfc07672b50134aa4.jpg"
+  },
+  {
+    "id": "ED592953FF4AC72C4B997569A164CCB7",
+    "title": "Barista Cat Swap",
+    "categories": [
+      "Animals",
+      "Restaurant"
+    ],
+    "poster": "/template-previews/ed592953ff4ac72c4b997569a164ccb7.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/04a0b37a1a3c4395ce153e72afb4e43b50a85dec60acd54331e6be97eb130a31.mov",
+    "preview": "/template-previews/ed592953ff4ac72c4b997569a164ccb7.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/af78799e7800a2997913ed22ada11a14.jpg"
+  },
+  {
+    "id": "2E991AF946863732C5B5E61B1C6107C4",
+    "title": "112,000 sets sold on the TikTok shop. 112,000 kids learning to protect their bodies.",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/2e991af946863732c5b5e61b1c6107c4.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/e47c4452fbc68f5932cad972c5bedd51f4ff676a33d783ddf67d33ddf8ced45c.mp4",
+    "preview": "/template-previews/2e991af946863732c5b5e61b1c6107c4.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/6dc41075e2177a4fc3e20999d8259645.jpg"
+  },
+  {
+    "id": "84C9B792247D54CAB783DA749685ED84",
+    "title": "Topview 7645472568891198751",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/84c9b792247d54cab783da749685ed84.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/9e8ec52e489e0b1f832067ea5e5ce96f8acde1666bddf5697733127cdbc095ab.mp4",
+    "preview": "/template-previews/84c9b792247d54cab783da749685ed84.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/c2510f4f5509197f5e72b5b18b696d8a.jpg"
+  },
+  {
+    "id": "6ABA3A719BDD123080C9CCEF0F8393F4",
+    "title": "I tried not to make it invisible ? #trend #friends #fyp #viral #us",
+    "categories": [
+      "Visual Effects"
+    ],
+    "poster": "/template-previews/6aba3a719bdd123080c9ccef0f8393f4.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/9b38c54df83eaaf5ea9b59960e15e879bc5dbcccb10cc6b6d8d11eaaeb39b4f0.mp4",
+    "preview": "/template-previews/6aba3a719bdd123080c9ccef0f8393f4.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/10388f70a16185dfe583a7f0de3cf768.jpg"
+  },
+  {
+    "id": "764F5AACED8EBFF18924352A2AC6F8CF",
+    "title": "Looking for an easy Ahi Tuna appetizer that's packed with flavor? This Crispy Ahi Tuna gets the perfect crust from Dan-O's Crunchy Seasoning while keeping the tuna tender and delicious inside. Whether you're entertaining guests, firing up the grill, or ju",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/764f5aaced8ebff18924352a2ac6f8cf.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/82cacb9b40d271a0944c1ff15b32f0635406a2a1c96bfbce54673334a0b0b0a0.mp4",
+    "preview": "/template-previews/764f5aaced8ebff18924352a2ac6f8cf.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/4468db439cde9793612f8f7249938684.jpg"
+  },
+  {
+    "id": "49236BFB935755992BC4250D7DB20F52",
+    "title": "?????????-???????????✰",
+    "categories": [
+      "Photography",
+      "Tutorials"
+    ],
+    "poster": "/template-previews/49236bfb935755992bc4250d7db20f52.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/1e3c5a2992c8d67cd443e4887b1b1b6fbabd8069bdfdfb5b01cae2d00b09962f.mp4",
+    "preview": "/template-previews/49236bfb935755992bc4250d7db20f52.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/25ab20696ac429e097377e37803e56bd.jpg"
+  },
+  {
+    "id": "52DC488DB29DA2BF97D70458945EF006",
+    "title": "#家常菜 #家常菜100道开胃下饭 #家常菜100道简单炒菜 #一起学做菜 ",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/52dc488db29da2bf97d70458945ef006.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/81756f358d7c82d910d8d9f085267188a86451f347b67ea601f9cfe5ce7fba50.mp4",
+    "preview": "/template-previews/52dc488db29da2bf97d70458945ef006.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/f20e382b6d34f2fd70aaa37900cac85c.jpg"
+  },
+  {
+    "id": "825D4AE5B06A58E2A90F7D6EC0C48A72",
+    "title": "Is this the UFO power principle you asked about?#toys #model ",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/825d4ae5b06a58e2a90f7d6ec0c48a72.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/b5833caa127de26a4f09d1c14e351d11f370664e2988a3ff6d6e9a9ff8a6385a.mp4",
+    "preview": "/template-previews/825d4ae5b06a58e2a90f7d6ec0c48a72.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/28a1f86480c56041b7dfc2c18ef72d1a.jpg"
+  },
+  {
+    "id": "B4C93BCFCD20015EC13E4EA1AC3DDC61",
+    "title": "Topview 7648219135649860894",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/b4c93bcfcd20015ec13e4ea1ac3ddc61.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/a38a00f678a4e1d42acdd2b037831bd2c28978ce3e045117ccf5071d6804727e.mp4",
+    "preview": "/template-previews/b4c93bcfcd20015ec13e4ea1ac3ddc61.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/9da7a1eab055da63040de54af1b5633e.jpg"
+  },
+  {
+    "id": "284541E5F30FEBED13D4B0C027D4C944",
+    "title": "summer bucket list ideas??‍♀️ add these summer activities to your agenda for the best summer yet\n\nhow many of these have you done before?\n\nfollow me @averyypearl for more epic summer activity ideas?\n\n#summeractivities #summerbucketlist #bucketlist #summer",
+    "categories": [
+      "Lifestyle"
+    ],
+    "poster": "/template-previews/284541e5f30febed13d4b0c027d4c944.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/2853c016143752d1f2ebc7d17017ff79fc48877251faac2985bcb27480cc6610.mp4",
+    "preview": "/template-previews/284541e5f30febed13d4b0c027d4c944.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/a37484adadc13423607aabb6b66e0a70.jpg"
+  },
+  {
+    "id": "BF3CE0ED5DFA159F0EA300DDE1EDB3FB",
+    "title": "Please help me now.\n.\n.\n.\nTags\nContent creator, men, struggle, hard work, success, goals, 2026 resolution, vision board, New year, inspiration, motivation, discipline, keep going, documenting, storytelling, quotes, fyp, explore page, pinterest, aesthetuc,",
+    "categories": [
+      "Motivation"
+    ],
+    "poster": "/template-previews/bf3ce0ed5dfa159f0ea300dde1edb3fb.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/6cab2d41503663d58667be07a866d073742a3c703d3d570295cb8b84abf2beca.mp4",
+    "preview": "/template-previews/bf3ce0ed5dfa159f0ea300dde1edb3fb.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/b70bafbd55b29e86c86dc0f2b4cac74c.jpg"
+  },
+  {
+    "id": "E3C181E69023D1E5FD98539FA4621F33",
+    "title": "Pozole with Pozole Bombs",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/e3c181e69023d1e5fd98539fa4621f33.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/cc3000b7625cdb099d7aac249494b69748210afa867be085bc3df1e3765b1a1b.mp4",
+    "preview": "/template-previews/e3c181e69023d1e5fd98539fa4621f33.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/a288325d7e7000c7807f45d39579c10e.jpg"
+  },
+  {
+    "id": "3C686B1623C536227D6BA96B118EBF46",
+    "title": "Tankini AND shorts #dealsforyoudays ",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/3c686b1623c536227d6ba96b118ebf46.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/bbedc93ba224700ba1e95bea67be2626205bce16f3e7bd4bc786521ef590f964.mp4",
+    "preview": "/template-previews/3c686b1623c536227d6ba96b118ebf46.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/02d81ab02d483fbc134a438d45bc25c9.jpg"
+  },
+  {
+    "id": "2EE51EB6CC822DD195A850AD83558CC3",
+    "title": "Level Up",
+    "categories": [
+      "Action",
+      "Fantasy"
+    ],
+    "poster": "/template-previews/2ee51eb6cc822dd195a850ad83558cc3.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/14715578e13e119c7ec22d0a85a6efe7e40cad3ac1d7bdd67ddf6401c3e38c0a.mp4",
+    "preview": "/template-previews/2ee51eb6cc822dd195a850ad83558cc3.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/dcd9bb6b02629a41015c4cd56cf8d415.jpg"
+  },
+  {
+    "id": "B9110FF4546A55B50AAAEE30CC730911",
+    "title": "Be honest... would your dog actually come back? Try @PetPhone #dayinmylife #goodboy #petphone #petpogo #dogtiktok",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/b9110ff4546a55b50aaaee30cc730911.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/2b72740e5680e17809f2f22c7e011132da4c45c5eefa54ba6b7749e0372153ed.mp4",
+    "preview": "/template-previews/b9110ff4546a55b50aaaee30cc730911.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/5b88292021272fbd059aec38e79f1e63.jpg"
+  },
+  {
+    "id": "E2C520EF6522AC3BB14C9CABF85CC941",
+    "title": "Urban Anime Recast",
+    "categories": [
+      "Cinema"
+    ],
+    "poster": "/template-previews/e2c520ef6522ac3bb14c9cabf85cc941.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/6226b6f7349eb72e55ad081907495ec7cc4f23eaf9275b0dba425f8e5dc5f34d.mov",
+    "preview": "/template-previews/e2c520ef6522ac3bb14c9cabf85cc941.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/9fc5c0f6498c50262395d29fd6f621d9.jpg"
+  },
+  {
+    "id": "F8AB6DA099796132DD95E64FE9F4B798",
+    "title": "#kittycatsoftiktok #mexico ",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/f8ab6da099796132dd95e64fe9f4b798.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/b93039063276f75a83091987fc33a865a781c3d6c11cdec0fd648ee545e9ba23.mp4",
+    "preview": "/template-previews/f8ab6da099796132dd95e64fe9f4b798.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/bfbbf756ad096b7008cb77a0f8d220c8.jpg"
+  },
+  {
+    "id": "B6A17B1963534A6FFC42A60DF53D2F4E",
+    "title": "Red Dead Redemption",
+    "categories": [
+      "Games",
+      "Gaming"
+    ],
+    "poster": "/template-previews/b6a17b1963534a6ffc42a60df53d2f4e.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/2d7b6bc436b0c7504cb4af33c815fe3457df02f8f8cc0bda9d6fbee611ad304c.mp4",
+    "preview": "/template-previews/b6a17b1963534a6ffc42a60df53d2f4e.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/f1271976ef611ef8332f0dcdd358d75d.jpg"
+  },
+  {
+    "id": "E00A163287366F752863BE01BAA83367",
+    "title": "Topview 7658823887773289742",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/e00a163287366f752863be01baa83367.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/c63773b895a323c5da5490f4a5b6c3dd742e9ded746109bc4501b2e4a4042272.mp4",
+    "preview": "/template-previews/e00a163287366f752863be01baa83367.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/28e369bc2ba9e10ce9d2bbb944112a8d.jpg"
+  },
+  {
+    "id": "F846607DC90182F70B648E8B022C2869",
+    "title": "Stoic Drama Recast",
+    "categories": [
+      "Cinema"
+    ],
+    "poster": "/template-previews/f846607dc90182f70b648e8b022c2869.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/bc8265d1a91931a8c09c8ccd623c699117a362c0856d833f405bd7f3c9985702.mov",
+    "preview": "/template-previews/f846607dc90182f70b648e8b022c2869.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/c4474591ad26046577355a07155c780a.jpg"
+  },
+  {
+    "id": "E046DF97D557910A79411282B6D306BC",
+    "title": "Action Stunt Sequence",
+    "categories": [
+      "Action"
+    ],
+    "poster": "/template-previews/e046df97d557910a79411282b6d306bc.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/6a2163307caab94238f2730e4e44671dcbb378a02bdd036e696daf3d01b2efb9.mov",
+    "preview": "/template-previews/e046df97d557910a79411282b6d306bc.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/9fe3761e880a20388653c3bd2d1db490.jpg"
+  },
+  {
+    "id": "24961E3638041E6BC386912E2BDE79D2",
+    "title": "Vital proteins sparkling water - worth it? Sparkling water is a great alternative to sodas, and while not directly advertised as a “protein” water or soda, the name kind of makes us think there will be protein in it - but there’s only 2 g. The Vital Prote",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/24961e3638041e6bc386912e2bde79d2.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/f647d828bcfc84019989fc2b8ca7f3d17c1ac2d527f44b024f5b16c7b839fb11.mp4",
+    "preview": "/template-previews/24961e3638041e6bc386912e2bde79d2.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/2f26b8eda06fd58a014ff3b0ccbe93bb.jpg"
+  },
+  {
+    "id": "2576AE6E4BCC037215E4B8A60ACC87D0",
+    "title": "WOW, The End will shock you ??️ #bioluminescence #maldives #travel #instagramvsreality • ? Appreciate the work: @Patrick Coyne | @CLEO | @Azan Rasheed  • DM us please for credits or removal ?",
+    "categories": [
+      "Travel",
+      "Hook",
+      "Nature"
+    ],
+    "poster": "/template-previews/2576ae6e4bcc037215e4b8a60acc87d0.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/fef169ea26b851c2970ee75647e4e2b9c19d697c9d229775fc7e282b0bf0b768.mp4",
+    "preview": "/template-previews/2576ae6e4bcc037215e4b8a60acc87d0.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/838db0bc0f43a9b3c7dffd1c835ea2e6.jpg"
+  },
+  {
+    "id": "3898849DEA30CC2C9E615FD435B66067",
+    "title": "#duet with @tiktok_songsxxx",
+    "categories": [],
+    "poster": "/template-previews/3898849dea30cc2c9e615fd435b66067.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/cfea3aa97f491c6e2a8ae63de8800a5e2b508e10e3766941ae437852e31bbe94.mp4",
+    "preview": "/template-previews/3898849dea30cc2c9e615fd435b66067.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/389fa8efb4ab72b41cf217445ffd1d5f.jpg"
+  },
+  {
+    "id": "83FAFBB2AFFC011AF7CED41D434C0D33",
+    "title": "Sidewalk Duo Serenade",
+    "categories": [
+      "Music"
+    ],
+    "poster": "/template-previews/83fafbb2affc011af7ced41d434c0d33.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/aae0bd743a554165c8ccf36ec56fcf22cca790375e26a08e221371e79f85f4a5.mov",
+    "preview": "/template-previews/83fafbb2affc011af7ced41d434c0d33.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/7f267f869751368f2ad7e3f882bb43b2.jpg"
+  },
+  {
+    "id": "F0E9B26285BEC684D82031319099ADE9",
+    "title": "Subway Performance Swap",
+    "categories": [
+      "Viral Now"
+    ],
+    "poster": "/template-previews/f0e9b26285bec684d82031319099ade9.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/fbb3165ed27fbb763409c15601bfd17b43b364e864d625ab6b4c0c6a8fb83551.mov",
+    "preview": "/template-previews/f0e9b26285bec684d82031319099ade9.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/7157e6800cdcda51ecc44ca5aaaec1af.jpg"
+  },
+  {
+    "id": "C3650E23CD174FF36569DE03F8066DDE",
+    "title": "#soraempire #dance #fyp #fyppppppppppppppppppppppp #fypシ ",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/c3650e23cd174ff36569de03f8066dde.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/6b329fc03c62266b2aeb5997beca6c637a07a3f0185faee6383a7050cfe46cb3.mp4",
+    "preview": "/template-previews/c3650e23cd174ff36569de03f8066dde.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/2f2bf38b9fad224649129658c6925f19.jpg"
+  },
+  {
+    "id": "F345F83388EE5C02D2BB195DF2391A0C",
+    "title": "Jules on that DAMN BIKE ?  Pink electric scooter #scootergirl #nolabounce #youngho #outside #pinkgirl ",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/f345f83388ee5c02d2bb195df2391a0c.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/a5ff19e1fd87711be27cc4193ae84d65e1861bf10a72dcb565ae94c8aa0f3fa6.mp4",
+    "preview": "/template-previews/f345f83388ee5c02d2bb195df2391a0c.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/4e337ddfb3f7809ece43ceec0a1e8a62.jpg"
+  },
+  {
+    "id": "B603848815F49DC1E966C7D4612335E7",
+    "title": "Warrior Identity Swap",
+    "categories": [
+      "Action"
+    ],
+    "poster": "/template-previews/b603848815f49dc1e966c7d4612335e7.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/f26205dd6025ca8c6e6edae10e83409957f122784e4cd9af2dcab29205fc0293.mov",
+    "preview": "/template-previews/b603848815f49dc1e966c7d4612335e7.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/e5d48752634c08ad9c6b51dc71ef72da.jpg"
+  },
+  {
+    "id": "1040BC3E47D0140372CCDFA73FA09EE4",
+    "title": "Character Car Caricature",
+    "categories": [
+      "Viral Now"
+    ],
+    "poster": "/template-previews/1040bc3e47d0140372ccdfa73fa09ee4.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/73bc5c15e527e658607a679a1312d9ad2e38c203be5b6cc73893dd6eed023fd1.mov",
+    "preview": "/template-previews/1040bc3e47d0140372ccdfa73fa09ee4.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/e1321fd2924c285e7c3338f25223e618.jpg"
+  },
+  {
+    "id": "7065D53FCE618F9CD91FF131C4756DAB",
+    "title": "Pet Pose Montage",
+    "categories": [
+      "Animals"
+    ],
+    "poster": "/template-previews/7065d53fce618f9cd91ff131c4756dab.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/f744c6264157164c1bb0b466c7ee97020328ce8589fe40fe618ff6611c555da7.mp4",
+    "preview": "/template-previews/7065d53fce618f9cd91ff131c4756dab.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/0280b543d5fe72591c888db30095e96e.jpg"
+  },
+  {
+    "id": "8E85139923CADF643E38138853BE18A3",
+    "title": "City Gesture",
+    "categories": [
+      "Music Video",
+      "Music"
+    ],
+    "poster": "/template-previews/8e85139923cadf643e38138853be18a3.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/c8697714fb1f5e22fb5e8ae108f6e9e8a8180eab3498a6762f84c56b856fbcb0.mp4",
+    "preview": "/template-previews/8e85139923cadf643e38138853be18a3.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/8ad346f32dbbeb1a568dd39b032c3750.jpg"
+  },
+  {
+    "id": "B22B6FB2F7B38243239694533C7469F8",
+    "title": "#fall #perfume #viral #fyp #fragrance ",
+    "categories": [
+      "Trending Videos"
+    ],
+    "poster": "/template-previews/b22b6fb2f7b38243239694533c7469f8.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/5772fc34a2b0390aad9a5fe817ce1eaca02a2a99f464b4a220ea2af64f28c56c.mp4",
+    "preview": "/template-previews/b22b6fb2f7b38243239694533c7469f8.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/89b17d4ed7987b3118f43c254fa742c9.jpg"
+  },
+  {
+    "id": "757CD82654870A7A0C6389A09B22CBA5",
+    "title": "JEFE\nDADDY YANKEE\nTHE BIG BOSS\nEL MAXIMO LIDER\nSOLO EXISTE UN LIDER.",
+    "categories": [
+      "Music"
+    ],
+    "poster": "/template-previews/757cd82654870a7a0c6389a09b22cba5.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/997d3a435d39951992bfcea007e5071a5315a51a9193e007036d32c353faced6.mp4",
+    "preview": "/template-previews/757cd82654870a7a0c6389a09b22cba5.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/af5d9656df71fd096e463496cb3328ab.jpg"
+  },
+  {
+    "id": "7AC5091A0A378F767F06A930FAF2564D",
+    "title": "1. If you lost me in a shopping mall, which shop would you look in first? 2. If you saw me yelling at someone in the street, what do you think would have happened? 3. If I were a criminal, what would I have been arrested for? 4. If I turned into an animal",
+    "categories": [
+      "Romance",
+      "Challenges"
+    ],
+    "poster": "/template-previews/7ac5091a0a378f767f06a930faf2564d.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/3f11ffc07a99efb3dea11025f9cb639546041a2720262a649f62e7f89ae92655.mp4",
+    "preview": "/template-previews/7ac5091a0a378f767f06a930faf2564d.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/bac3fb98f92dd87d35ede526bff5bd05.jpg"
+  },
+  {
+    "id": "48BE79AD9ADA8938D217610BE9394558",
+    "title": "Cinematic Identity Swap",
+    "categories": [
+      "Viral Now"
+    ],
+    "poster": "/template-previews/48be79ad9ada8938d217610be9394558.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/e5ea7feddd589e958cb934d84339d44264f1d9bada59b3b164ebc4c99c99de84.mov",
+    "preview": "/template-previews/48be79ad9ada8938d217610be9394558.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/637d1de05e9e024d306c0e35c40bf340.jpg"
+  },
+  {
+    "id": "6C41A227FEB095B36AF9448CC38A74C0",
+    "title": "And when I saw a dermatologist say it’s the most accurate aging filter I fainted #agingfilter #filter #aginggracefully LMAO",
+    "categories": [
+      "Filters"
+    ],
+    "poster": "/template-previews/6c41a227feb095b36af9448cc38a74c0.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/25794ef79db6251762b8165d7d0fa22fc90ca8e70fe5a468f120130d08df54a8.mp4",
+    "preview": "/template-previews/6c41a227feb095b36af9448cc38a74c0.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/9ea5b7bebda20429896282ae524ade1d.jpg"
+  },
+  {
+    "id": "D35F8465A1E4DFB662FD3B416E463E44",
+    "title": "remember that if you have a lot of smile lines, it’s bc you had happy moments :) #agedfilter #늙음필터",
+    "categories": [
+      "Filters"
+    ],
+    "poster": "/template-previews/d35f8465a1e4dfb662fd3b416e463e44.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/9213b1ddb34ecd74615c8fe1ad0994015fcdb490505c237af9fa3113090f619c.mp4",
+    "preview": "/template-previews/d35f8465a1e4dfb662fd3b416e463e44.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/c502c4812027ea87b43e5394d8bd45ac.jpg"
+  },
+  {
+    "id": "34C9E4A8CB79EB7974BB1688FF00BD27",
+    "title": "Desert Vehicle Leap",
+    "categories": [
+      "Vehicles",
+      "Hook"
+    ],
+    "poster": "/template-previews/34c9e4a8cb79eb7974bb1688ff00bd27.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/7eab00dfd5ccfc5b22deb9b698110484178a65403750cb8fa9c562e453d4f1f4.mov",
+    "preview": "/template-previews/34c9e4a8cb79eb7974bb1688ff00bd27.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/2d22a473cc1f831c8ba0f751c384e629.jpg"
+  },
+  {
+    "id": "56EF4F2FF043E4565BE0831F0C9C62A6",
+    "title": "this was so fun and helps visualize your goals for the upcoming year ✨??️  .  .  .  .  .  . fashion inspiration, thrifting, winter fashion trends 2024 , pinterest style aesthetic, vision board 2025, making a vision board, vision boarding, crafting, diy id",
+    "categories": [
+      "Art",
+      "DIY",
+      "Motivation"
+    ],
+    "poster": "/template-previews/56ef4f2ff043e4565be0831f0c9c62a6.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/e1434902d31e07efe50d034df218191f9d00c44d7adeb5e20c70a71724b44b9c.mp4",
+    "preview": "/template-previews/56ef4f2ff043e4565be0831f0c9c62a6.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/922e422dc95f09c62f0cc97b63878085.jpg"
+  },
+  {
+    "id": "75F0E78F3EEB696BFAB821FC3A5ABC7A",
+    "title": "???\n.\n.\n.\n.#post #viral#contentcreator #reelstrending #song",
+    "categories": [
+      "Music",
+      "Photography"
+    ],
+    "poster": "/template-previews/75f0e78f3eeb696bfab821fc3a5abc7a.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/a36ac4dc09afb47db0eff288d9779c8a310b095b67044644463c261628ca00a3.mp4",
+    "preview": "/template-previews/75f0e78f3eeb696bfab821fc3a5abc7a.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/1d754395bc202cac78b65010d357b6e2.jpg"
+  }
+]

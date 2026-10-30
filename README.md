@@ -1,14 +1,10 @@
-# MaxDay AI landing page
+# MaxDay AI marketing website
 
-A landing page for MaxDay AI, focused on three capabilities for marketing teams:
+The homepage and seven feature pages for social media and ecommerce teams. The design follows the live MaxDay site, preserving its template showcase and adding Workflows & Apps, API, Video Cloning, Content Scout, AI Tag Remover, Video Downloader, and Ecommerce Clone.
 
-- AI content generation with leading models in one workspace
-- Content Scout for finding and importing Instagram Reels and TikToks
-- Shared projects, collaborative workflows, reusable apps, and API access
+Pricing, Support, Privacy Policy, and Terms of Service remain available. The full Templates application stays at [maxday.ai/templates](https://maxday.ai/templates). Marketing CTAs lead to the live MaxDay login flow.
 
-The page uses actual MaxDay product screenshots supplied by the team. Model marks and model names match the original MaxDay page. The public `/pricing` page includes monthly and annual plans. Plan buttons lead to MaxDay login.
-
-The existing Privacy Policy and Terms & Conditions pages from the GitHub repository are preserved as local routes.
+See [FEATURE-PAGES.md](FEATURE-PAGES.md) for the route map, live-site integration notes, media provenance, and analytics event setup.
 
 ## Develop
 

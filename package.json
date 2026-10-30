@@ -9,7 +9,7 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "start": "wrangler dev --config dist/server/wrangler.json",
-    "lint": "oxlint app components/site-header.tsx components/site-footer.tsx components/legal-page.tsx components/pricing-plans.tsx lib",
+    "lint": "oxlint app components/*.tsx lib --ignore-pattern components/api-model-catalog.tsx",
     "format": "oxfmt",
     "build:pages": "GITHUB_PAGES=true next build --webpack"
   },
