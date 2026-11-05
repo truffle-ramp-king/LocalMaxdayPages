@@ -26,8 +26,8 @@ export default function AiTagRemoverPage() {
     <FeatureLayout slug="ai-tag-remover">
       <FeatureHero
         eyebrow="AI TAG REMOVER"
-        title="Your content is ready."
-        accent="Clean up the metadata."
+        title="Remove AI tags from your file."
+        accent="Then your content is ready."
         description="Remove embedded AI metadata from generated images and videos before handing files to your team or moving them into the next part of your campaign."
         slug="ai-tag-remover"
         cta="Open AI Tag Remover"
