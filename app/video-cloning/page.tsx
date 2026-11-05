@@ -94,7 +94,7 @@ export default function VideoCloningPage() {
         items={[
           {
             q: 'Which modes can I preview here?',
-            a: 'The comparison shows the supplied original video alongside actual mosaic, blur, and clay outputs. Quick clone and Depth Map explain the other available approaches; the workspace screenshot shows the depth extraction option.',
+            a: 'Watch the Quick Clone walkthrough to see a reference clip and its remake. Select Mosaic or Clay figure to compare the original video with pixelated, blurred, or clay outputs. Depth Map shows where to find depth extraction in the workspace.',
           },
           {
             q: 'Can I bring a video from Instagram or TikTok?',
