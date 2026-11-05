@@ -197,6 +197,8 @@ button:focus-visible { outline: 2px solid var(--acid); outline-offset: 4px; }
 .clone-play { display: flex; margin-top: 26px; min-height: 45px; width: fit-content; font-size: 12px; gap: 10px; }
 .demo-footnote { display: block; margin-top: 19px; color: #768294; font-size: 10px; }
 .clone-preview { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: stretch; }
+.quick-clone-demo { grid-column: 1 / -1; min-width: 0; }
+.quick-clone-demo video { display: block; width: 100%; height: auto; border: 1px solid #3c414c; border-radius: 9px; background: #0a0a0d; }
 .clip-frame { overflow: hidden; border: 1px solid #3c414c; border-radius: 9px; aspect-ratio: 9/16; background: #0a0a0d; }
 .clip-frame video { display: block; width: 100%; height: 100%; object-fit: cover; }
 .clone-preview figcaption { display: flex; gap: 10px; padding: 12px 0 0; color: #b6c0b1; font-size: 11px; }
@@ -205,7 +207,6 @@ button:focus-visible { outline: 2px solid var(--acid); outline-offset: 4px; }
 .clone-mode-explainer > svg { color: #c3dc9b; margin-bottom: 23px; }
 .clone-mode-explainer small { color: #9cae83; font: 8px var(--font-geist-mono),monospace; letter-spacing: .1em; }
 .clone-mode-explainer h3 { margin: 14px 0 25px; font-size: 23px; letter-spacing: -.04em; font-weight: 550; line-height: 1.2; }
-.clone-mode-explainer > span { display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 10px; border-top: 1px solid #ffffff1a; padding: 13px 0; color: #c0cfb1; font-size: 11px; }
 .clone-mode-explainer p { margin-top: 15px; color: #8c9d7d; font-size: 10px; line-height: 1.75; }
 .clone-mode-explainer .text-link { font-size: 10px; margin-top: 20px; }
 .clone-mode-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 30px; }
@@ -467,8 +468,6 @@ button:focus-visible { outline: 2px solid var(--acid); outline-offset: 4px; }
   .clone-mode-explainer > svg { width: 25px; margin-bottom: 15px; }
   .clone-mode-explainer small { font-size: 7px; }
   .clone-mode-explainer h3 { font-size: 17px; margin: 12px 0 14px; }
-  .clone-mode-explainer > span { font-size: 8px; padding: 10px 0; }
-  .clone-mode-explainer > span svg { width: 12px; }
   .clone-mode-explainer p { font-size: 8px; }
   .clone-mode-explainer .text-link { font-size: 8px; gap: 4px; margin-top: 12px; }
   .clone-mode-explainer.depth-option > svg:nth-of-type(2) { height: 25px; }

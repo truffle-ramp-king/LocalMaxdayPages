@@ -2,24 +2,17 @@
 
 import { useRef, useState } from 'react';
 import Image from 'next/image';
-import {
-  Play,
-  Pause,
-  ArrowRight,
-  Layers,
-  WandSparkles,
-  Box,
-} from 'lucide-react';
+import { Play, Pause, ArrowRight, Layers, Box } from 'lucide-react';
 import { publicAsset } from '@/lib/features';
 import optionsScreenshot from '@/public/cloning/remake-options.png';
 
 const modes = [
   {
     id: 'quick',
-    name: 'Quick clone',
-    title: 'Start with the whole idea.',
+    name: 'Quick Clone',
+    title: 'Try a new look in the same shot.',
     description:
-      'Use a reference video as the starting point for your remake. A direct route from a format you like to a new version for your brand.',
+      'Watch how to remake a fashion clip with a different model and outfit. Pick a reference video, add your photos, and describe what you want to change.',
   },
   {
     id: 'mosaic',
@@ -45,7 +38,7 @@ const modes = [
 ] as const;
 
 export function CloneDemo() {
-  const [mode, setMode] = useState<(typeof modes)[number]['id']>('mosaic');
+  const [mode, setMode] = useState<(typeof modes)[number]['id']>('quick');
   const [treatment, setTreatment] = useState<'mosaic' | 'blur'>('mosaic');
   const [playing, setPlaying] = useState(false);
   const source = useRef<HTMLVideoElement>(null);
@@ -122,41 +115,68 @@ export function CloneDemo() {
               </button>
             </fieldset>
           ) : null}
-          <button
-            type="button"
-            className="button button-outline clone-play"
-            onClick={togglePlayback}
-          >
-            {playing ? <Pause size={16} /> : <Play size={16} />}
-            {playing
-              ? 'Pause preview'
-              : mode === 'mosaic' || mode === 'clay'
-                ? 'Play comparison'
-                : 'Play source video'}
-          </button>
-          <span className="demo-footnote">
-            Real MaxDay example · 10-second source
-          </span>
+          {mode !== 'quick' && (
+            <>
+              <button
+                type="button"
+                className="button button-outline clone-play"
+                onClick={togglePlayback}
+              >
+                {playing ? <Pause size={16} /> : <Play size={16} />}
+                {playing
+                  ? 'Pause preview'
+                  : mode === 'mosaic' || mode === 'clay'
+                    ? 'Play comparison'
+                    : 'Play source video'}
+              </button>
+              <span className="demo-footnote">
+                Real MaxDay example · 10-second source
+              </span>
+            </>
+          )}
         </div>
         <div className="clone-preview">
-          <figure>
-            <div className="clip-frame">
+          {mode === 'quick' ? (
+            <figure className="quick-clone-demo">
               <video
-                ref={source}
-                src={publicAsset('/cloning/original.mp4')}
-                poster={publicAsset('/cloning/original.jpg')}
+                src={publicAsset('/cloning/quick-clone.mp4')}
+                poster={publicAsset('/cloning/quick-clone.jpg')}
+                width={1280}
+                height={656}
                 preload="none"
-                muted
                 playsInline
                 controls
-                onEnded={() => setPlaying(false)}
-                aria-label="Original source video"
-              />
-            </div>
-            <figcaption>
-              <span>01</span> Original source
-            </figcaption>
-          </figure>
+                aria-label="Quick Clone walkthrough"
+              >
+                <track
+                  kind="captions"
+                  src={publicAsset('/cloning/quick-clone.en.vtt')}
+                  srcLang="en"
+                  label="English walkthrough"
+                />
+              </video>
+              <figcaption>Quick Clone walkthrough · 27 seconds</figcaption>
+            </figure>
+          ) : (
+            <figure>
+              <div className="clip-frame">
+                <video
+                  ref={source}
+                  src={publicAsset('/cloning/original.mp4')}
+                  poster={publicAsset('/cloning/original.jpg')}
+                  preload="none"
+                  muted
+                  playsInline
+                  controls
+                  onEnded={() => setPlaying(false)}
+                  aria-label="Original source video"
+                />
+              </div>
+              <figcaption>
+                <span>01</span> Original source
+              </figcaption>
+            </figure>
+          )}
           {mode === 'mosaic' || mode === 'clay' ? (
             <figure key={result}>
               <div className="clip-frame">
@@ -181,27 +201,7 @@ export function CloneDemo() {
                     : 'Mosaic treatment'}
               </figcaption>
             </figure>
-          ) : mode === 'quick' ? (
-            <div className="clone-mode-explainer">
-              <WandSparkles size={33} strokeWidth={1.2} />
-              <small>QUICK CLONE</small>
-              <h3>
-                Your reference.
-                <br />
-                Your next version.
-              </h3>
-              <span>
-                Reference video
-                <ArrowRight size={17} />
-              </span>
-              <span>
-                Your direction
-                <ArrowRight size={17} />
-              </span>
-              <span>A new generation</span>
-              <p>Start a Quick clone in MaxDay.</p>
-            </div>
-          ) : (
+          ) : mode === 'depth' ? (
             <div className="clone-mode-explainer depth-option">
               <Layers size={33} strokeWidth={1.2} />
               <small>DEPTH MAP</small>
@@ -219,7 +219,7 @@ export function CloneDemo() {
                 <ArrowRight size={16} />
               </a>
             </div>
-          )}
+          ) : null}
         </div>
       </div>
     </div>
