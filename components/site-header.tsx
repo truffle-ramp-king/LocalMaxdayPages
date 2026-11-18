@@ -86,11 +86,21 @@ export function SiteHeader() {
           <Link href="/pricing">Pricing</Link>
         </nav>
         <div className="header-actions">
-          <a className="login-link" href="https://maxday.ai/login">
-            Login
+          <a
+            className="login-link"
+            data-feature="login"
+            data-placement="header"
+            href="https://maxday.ai/login"
+          >
+            Log in
           </a>
-          <a className="header-cta" href="https://maxday.ai/login">
-            Get started <ArrowUpRight size={16} aria-hidden="true" />
+          <a
+            className="header-cta"
+            href={templatesUrl}
+            data-feature="templates"
+            data-placement="header"
+          >
+            Choose a template <ArrowUpRight size={16} aria-hidden="true" />
           </a>
         </div>
         <details className="mobile-nav">
@@ -121,7 +131,7 @@ export function SiteHeader() {
               Support
             </Link>
             <a href="https://maxday.ai/login" onClick={closeMobile}>
-              Login
+              Log in
             </a>
           </nav>
         </details>

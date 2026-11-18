@@ -26,10 +26,8 @@ const models = [
 
 export function ModelStrip() {
   return (
-    <section className="model-section section-container">
-      <div className="model-heading">
-        <h2>All the Top AI Models in One Workspace</h2>
-      </div>
+    <details className="model-disclosure section-container">
+      <summary>Supported image, video, audio and text models</summary>
       <ul className="model-list">
         {models.map((model) => (
           <li key={model.name}>
@@ -38,6 +36,6 @@ export function ModelStrip() {
           </li>
         ))}
       </ul>
-    </section>
+    </details>
   );
 }

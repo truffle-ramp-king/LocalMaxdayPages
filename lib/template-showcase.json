@@ -1,7 +1,19 @@
 [
   {
+    "id": "D66C400CA65102357D6C7CAA9C0F1D72",
+    "title": "Sell a scent through a holiday scene",
+    "categories": [
+      "Home Appliances",
+      "E-commerce"
+    ],
+    "poster": "/template-previews/holiday-diffuser.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/6ffd7b57daa5a97d29017b1f74e2dfe56b58541b66541b5f58515919409f688d.mp4",
+    "preview": "/template-previews/holiday-diffuser.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/59c070ee98aaf2c461f0c847e7f86b1e.jpg"
+  },
+  {
     "id": "014A478BADFED4F75A351FF42D2DD0DC",
-    "title": "Dark Cinematic Product Ad",
+    "title": "Introduce a product with a cinematic reveal",
     "categories": [
       "Advertising",
       "Fashion",
@@ -18,7 +30,7 @@
   },
   {
     "id": "C13E437A44CDF8EA479FCC72A6794C5D",
-    "title": "Virtual Try-On Sneakers",
+    "title": "Show sneakers on foot with a virtual try-on",
     "categories": [
       "UGC",
       "E-commerce",
@@ -32,7 +44,7 @@
   },
   {
     "id": "6C2B7AC0C33381545563340AF5FE2367",
-    "title": "Luxury Beat Drop",
+    "title": "Time a luxury reveal to the beat",
     "categories": [
       "Products",
       "Hook",
@@ -46,19 +58,8 @@
     "originalPoster": "https://static-sz.drfun.cn/resource/image/d7a21450d4b16e34f559bc033e613082.jpg"
   },
   {
-    "id": "90751D3A53CE1D3DCB5984BF7A506838",
-    "title": "Sakerplus",
-    "categories": [
-      "Advertising"
-    ],
-    "poster": "/template-previews/90751d3a53ce1d3dcb5984bf7a506838.jpg",
-    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/5e3952422059fc44a412a1dbff2c245148d2891be8d10e2617afd2f5259f2a2a.mov",
-    "preview": "/template-previews/90751d3a53ce1d3dcb5984bf7a506838.mp4",
-    "originalPoster": "https://static-sz.drfun.cn/resource/image/0a2a985be675205935421d79b0e277d4.jpg"
-  },
-  {
     "id": "E1BEE0436CE41CBEEF52040F981792D8",
-    "title": "Seasonal Pup Swaps",
+    "title": "Model seasonal pet looks with one pup",
     "categories": [
       "Animals",
       "Hook",
@@ -69,6 +70,17 @@
     "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/23a48b8ab3bcc2a394195d7e5f8c9976b9edc32300025fb0341fe1180ce54772.mov",
     "preview": "/template-previews/e1bee0436ce41cbeef52040f981792d8.mp4",
     "originalPoster": "https://static-sz.drfun.cn/resource/image/a9f9724e03bb556915414cdfeb92a613.jpg"
+  },
+  {
+    "id": "90751D3A53CE1D3DCB5984BF7A506838",
+    "title": "Sakerplus",
+    "categories": [
+      "Advertising"
+    ],
+    "poster": "/template-previews/90751d3a53ce1d3dcb5984bf7a506838.jpg",
+    "video": "https://static-sz.drfun.cn/canvas/openapi-inputs/5e3952422059fc44a412a1dbff2c245148d2891be8d10e2617afd2f5259f2a2a.mov",
+    "preview": "/template-previews/90751d3a53ce1d3dcb5984bf7a506838.mp4",
+    "originalPoster": "https://static-sz.drfun.cn/resource/image/0a2a985be675205935421d79b0e277d4.jpg"
   },
   {
     "id": "064E22C4CD46A4D061E90FFB9C027C56",

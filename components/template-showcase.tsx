@@ -3,19 +3,18 @@
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { ArrowUpRight, Play, X, Plus } from 'lucide-react';
+import { recordMarketingEvent } from '@/components/feature-analytics';
 import templates from '@/lib/template-showcase.json';
 import { templatesUrl, publicAsset } from '@/lib/features';
 
 const categories = [
   'All templates',
-  'Viral Now',
+  'E-commerce',
   'Fashion',
   'Advertising',
   'UGC',
-  'E-commerce',
-  'Hook',
-  'Dance',
 ];
+const featuredCount = 5;
 type Template = (typeof templates)[number];
 
 export function TemplateShowcase() {
@@ -23,11 +22,41 @@ export function TemplateShowcase() {
   const [expanded, setExpanded] = useState(false);
   const [selected, setSelected] = useState<Template | null>(null);
   const [mediaError, setMediaError] = useState(false);
+  const gallery = useRef<HTMLElement>(null);
+  useEffect(() => {
+    if (!gallery.current) return;
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        recordMarketingEvent({
+          event: 'maxday_gallery_view',
+          placement: 'home',
+        });
+        observer.disconnect();
+      }
+    });
+    observer.observe(gallery.current);
+    return () => observer.disconnect();
+  }, []);
   const dialog = useRef<HTMLDialogElement>(null);
   const items =
     category === 'All templates'
       ? templates
       : templates.filter((t) => t.categories.includes(category));
+  useEffect(() => {
+    function readSelection() {
+      const id = window.location.hash.slice('#template-'.length);
+      const item = templates.find((template) => template.id === id);
+      if (window.location.hash.startsWith('#template-') && item) {
+        setMediaError(false);
+        setSelected(item);
+      } else {
+        dialog.current?.close();
+      }
+    }
+    readSelection();
+    window.addEventListener('hashchange', readSelection);
+    return () => window.removeEventListener('hashchange', readSelection);
+  }, []);
   useEffect(() => {
     if (!selected) return;
     dialog.current?.showModal();
@@ -39,17 +68,17 @@ export function TemplateShowcase() {
   }, [selected]);
   return (
     <section
+      ref={gallery}
       className="template-showcase section-container"
       id="video-templates"
       aria-labelledby="template-wall-title"
     >
       <div className="template-intro">
         <div>
-          <p className="section-label">A HEAD START FOR YOUR NEXT POST</p>
-          <h2 id="template-wall-title">Start with a format you love.</h2>
+          <h2 id="template-wall-title">Pick a format for your product</h2>
         </div>
         <a href={templatesUrl} className="text-link">
-          All templates
+          Open template library
           <ArrowUpRight size={17} />
         </a>
       </div>
@@ -72,16 +101,15 @@ export function TemplateShowcase() {
         ))}
       </fieldset>
       <div className="template-wall">
-        {(expanded ? items : items.slice(0, 10)).map((t) => (
-          <button
-            type="button"
+        {(expanded ? items : items.slice(0, featuredCount)).map((t) => (
+          <a
             className="template-tile"
             key={t.id}
-            onClick={() => {
-              setMediaError(false);
-              setSelected(t);
-            }}
-            aria-label={`Preview ${t.title}`}
+            href={`#template-${t.id}`}
+            data-feature="template-selection"
+            data-template-id={t.id}
+            data-placement="gallery"
+            aria-label={`Use this template: ${t.title}`}
           >
             <Image
               src={publicAsset(t.poster)}
@@ -96,14 +124,17 @@ export function TemplateShowcase() {
               <Play size={17} fill="currentColor" />
             </span>
             <span className="template-tile-caption">
-              <small>{t.categories[0] || 'Video template'}</small>
               <strong>{t.title}</strong>
+              <small>{t.categories[0] || 'Video template'}</small>
+              <span className="use-template">
+                Use this template <ArrowUpRight size={14} />
+              </span>
             </span>
-          </button>
+          </a>
         ))}
       </div>
       <div className="template-wall-actions">
-        {!expanded && items.length > 10 ? (
+        {!expanded && items.length > featuredCount ? (
           <button
             className="button button-outline"
             type="button"
@@ -122,7 +153,18 @@ export function TemplateShowcase() {
         ref={dialog}
         className="template-dialog"
         aria-label={selected ? `Preview ${selected.title}` : 'Template preview'}
-        onClose={() => setSelected(null)}
+        onClose={() => {
+          if (window.location.hash.startsWith('#template-')) {
+            window.history.replaceState(
+              window.history.state,
+              '',
+              window.location.pathname +
+                window.location.search +
+                '#video-templates',
+            );
+          }
+          setSelected(null);
+        }}
       >
         <div className="template-dialog-inner">
           <button
@@ -167,13 +209,30 @@ export function TemplateShowcase() {
                   </p>
                 )}
                 <p>
-                  Use a reference as the starting point for your own video.
-                  Explore the full library to clone a format or send it to a
-                  workflow.
+                  Save this reference clip, then upload it to your MaxDay
+                  workflow. Add your product photos and describe what to
+                  replace.
                 </p>
-                <a href={templatesUrl} className="button button-primary">
-                  Open template library
-                  <ArrowUpRight size={17} />
+                <a
+                  href={publicAsset(selected.preview)}
+                  download={`maxday-${selected.id}.mp4`}
+                  className="button button-primary"
+                  data-feature="template-download"
+                  data-template-id={selected.id}
+                  data-placement="template-preview"
+                >
+                  Download reference clip <ArrowUpRight size={17} />
+                </a>
+                <a
+                  href="https://maxday.ai/login"
+                  target="_blank"
+                  rel="noopener"
+                  className="text-link workspace-entry"
+                  data-feature="workspace-login"
+                  data-template-id={selected.id}
+                  data-placement="template-preview"
+                >
+                  Log in to your workspace <ArrowUpRight size={15} />
                 </a>
               </div>
             </>
