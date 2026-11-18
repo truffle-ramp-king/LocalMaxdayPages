@@ -21,14 +21,14 @@ const campaignTools = [
   {
     slug: 'video-cloning',
     name: 'Video Cloning',
-    title: 'Put your product in the shot',
-    text: 'Use Quick Clone to keep a reference video’s format and swap in your own model and outfit.',
+    title: 'Adapt a format',
+    text: 'Recreate a trend for a client, try a new outfit for an AI influencer, or turn a reference clip into an ad for your store.',
   },
   {
     slug: 'workflows',
     name: 'Workflows & Apps',
     title: 'Save the setup',
-    text: 'Copy your workflow as an app. For the next product, supply new photos and run the same steps again.',
+    text: 'Copy your workflow as an app. Work on the same canvas simultaneously, then run the app with new inputs for each client or microdrama episode.',
   },
 ];
 
@@ -41,16 +41,16 @@ export default function Home() {
         <div className="hero-inner campaign-hero">
           <div className="hero-copy">
             <div className="eyebrow">
-              <span className="eyebrow-dot" /> For social media & ecommerce
-              teams
+              <span className="eyebrow-dot" /> For agencies, brands & video
+              creators
             </div>
             <h1 id="hero-title">
-              Turn a video reference into an ad <span>for your product.</span>
+              Build a video workflow. <span>Run it for every brief.</span>
             </h1>
             <p className="hero-lede">
-              Start with a clip you like. Add your product photos to make
-              campaign images and videos, then reuse the setup for your next
-              launch.
+              Plan and produce videos together in one shared workspace. Keep the
+              steps your team trusts, then swap the brief, cast or product for
+              the next client, episode or launch.
             </p>
             <div className="hero-actions">
               <a
@@ -62,7 +62,7 @@ export default function Home() {
                 Choose a video template <ArrowRight size={18} />
               </a>
               <a className="text-link" href="#fashion-shoot">
-                See the fashion workflow
+                See a workflow in action
               </a>
             </div>
           </div>
@@ -83,11 +83,11 @@ export default function Home() {
                   alt="Model wearing the yellow dress and denim jacket on location"
                   preload
                 />
-                <span>Made in MaxDay</span>
+                <span>Styled campaign look</span>
               </div>
             </div>
             <figcaption>
-              Luxury Fashion Campaign <small>MaxDay internal demo</small>
+              Luxury Fashion Campaign <small>Recreated from our demo</small>
             </figcaption>
           </figure>
         </div>
@@ -109,7 +109,7 @@ export default function Home() {
                 src={outfit}
                 alt="Character sheet showing the dress and jacket from the front, side and back"
               />
-              <figcaption>The outfit check from our project</figcaption>
+              <figcaption>Recreated outfit check</figcaption>
             </figure>
             <div>
               <h3>For the next item in your catalog</h3>
@@ -118,21 +118,13 @@ export default function Home() {
                 photos and run the workflow again. Copy the finished setup as an
                 app so a teammate can supply the next product.
               </p>
-              <Link
-                className="text-link"
-                href="/workflows"
-                data-feature="workflows"
-                data-placement="home-workspace"
-              >
-                See how to reuse a workflow <ArrowRight size={17} />
-              </Link>
             </div>
           </div>
-          <a
+          <Link
             className="home-workspace"
-            href={workspace.src}
-            target="_blank"
-            rel="noopener"
+            href="/workflows"
+            data-feature="workflows"
+            data-placement="home-canvas"
           >
             <Image
               src={workspace}
@@ -140,13 +132,13 @@ export default function Home() {
               sizes="(max-width: 800px) 100vw, 1240px"
             />
             <span>
-              Inspect the full canvas <ArrowUpRight size={16} />
+              Explore Workflows and Apps <ArrowUpRight size={16} />
             </span>
-          </a>
+          </Link>
         </div>
       </section>
       <section className="section-container campaign-tools" id="features">
-        <h2>Tools for your next product video</h2>
+        <h2>How teams scale video production</h2>
         <div>
           {campaignTools.map((tool) => (
             <Link

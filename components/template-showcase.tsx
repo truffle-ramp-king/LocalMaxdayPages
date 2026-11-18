@@ -75,7 +75,7 @@ export function TemplateShowcase() {
     >
       <div className="template-intro">
         <div>
-          <h2 id="template-wall-title">Pick a format for your product</h2>
+          <h2 id="template-wall-title">Pick a format for your next video</h2>
         </div>
         <a href={templatesUrl} className="text-link">
           Open template library

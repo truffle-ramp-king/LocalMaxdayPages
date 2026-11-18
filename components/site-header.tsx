@@ -84,6 +84,7 @@ export function SiteHeader() {
             API
           </Link>
           <Link href="/pricing">Pricing</Link>
+          <Link href="/support">Contact</Link>
         </nav>
         <div className="header-actions">
           <a
@@ -128,7 +129,7 @@ export function SiteHeader() {
               Pricing
             </Link>
             <Link href="/support" onClick={closeMobile}>
-              Support
+              Contact
             </Link>
             <a href="https://maxday.ai/login" onClick={closeMobile}>
               Log in

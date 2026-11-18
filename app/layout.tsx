@@ -24,15 +24,15 @@ export const metadata: Metadata = {
       ? { index: false, follow: false }
       : { index: true, follow: true },
   metadataBase: new URL('https://www.maxday.ai'),
-  title: 'MaxDay AI — Turn social trends into your next campaign.',
+  title: 'MaxDay AI — Repeatable video production for teams.',
   description:
-    'Scout social trends, clone video formats, and create product content with AI. Turn your best campaign workflow into a reusable MaxDay app.',
+    'Produce videos together, adapt a workflow for each client or episode, and run it again with new assets.',
   applicationName: 'MaxDay AI',
   alternates: { canonical: 'https://www.maxday.ai/' },
   openGraph: {
-    title: 'MaxDay AI — Turn social trends into your next campaign.',
+    title: 'MaxDay AI — Repeatable video production for teams.',
     description:
-      'Discover, create, and collaborate in one AI workspace for social media managers.',
+      'Build and run repeatable video workflows in a shared AI workspace for agencies, brands and creators.',
     url: 'https://www.maxday.ai/',
     siteName: 'MaxDay AI',
     type: 'website',
@@ -47,9 +47,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'MaxDay AI — Turn social trends into your next campaign.',
+    title: 'MaxDay AI — Repeatable video production for teams.',
     description:
-      'Discover, create, and collaborate in one AI workspace for social media managers.',
+      'Build and run repeatable video workflows in a shared AI workspace for agencies, brands and creators.',
     images: ['/fashion-campaign-workspace.jpg'],
   },
 };
