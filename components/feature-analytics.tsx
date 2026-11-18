@@ -2,6 +2,14 @@
 
 import { useEffect } from 'react';
 
+export function recordMarketingEvent(detail: Record<string, unknown>) {
+  const analyticsWindow = window as typeof window & {
+    dataLayer?: Record<string, unknown>[];
+  };
+  analyticsWindow.dataLayer = analyticsWindow.dataLayer || [];
+  analyticsWindow.dataLayer.push(detail);
+}
+
 /** A first-party integration point for the production site's analytics container. */
 export function FeatureAnalytics() {
   useEffect(() => {
@@ -14,13 +22,12 @@ export function FeatureAnalytics() {
         event: 'maxday_feature_click',
         feature: link.dataset.feature,
         placement: link.dataset.placement,
+        ...(link.dataset.templateId && {
+          template_id: link.dataset.templateId,
+        }),
         destination: link.pathname,
       };
-      const analyticsWindow = window as typeof window & {
-        dataLayer?: Record<string, unknown>[];
-      };
-      analyticsWindow.dataLayer = analyticsWindow.dataLayer || [];
-      analyticsWindow.dataLayer.push(detail);
+      recordMarketingEvent(detail);
       window.dispatchEvent(new CustomEvent('maxday:feature-click', { detail }));
     }
     document.addEventListener('click', track);
