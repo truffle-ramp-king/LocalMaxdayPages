@@ -50,6 +50,7 @@ export function SiteHeader() {
           <span>MaxDay AI</span>
         </Link>
         <nav className="desktop-nav" aria-label="Main navigation">
+          <Link href="/about">About</Link>
           <details className="feature-menu">
             <summary>
               Features <ChevronDown size={14} aria-hidden="true" />
@@ -99,6 +100,9 @@ export function SiteHeader() {
           </summary>
           <nav aria-label="Mobile navigation">
             <span className="section-label">EXPLORE MAXDAY</span>
+            <Link href="/about" onClick={closeMobile}>
+              About
+            </Link>
             {featurePages.map((f) => (
               <Link
                 key={f.slug}
