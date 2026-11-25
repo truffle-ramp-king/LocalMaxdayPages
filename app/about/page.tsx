@@ -22,30 +22,37 @@ export default function AboutPage() {
     <>
       <SiteHeader />
       <main className={styles.page}>
-        <article className={`section-container ${styles.profile}`}>
-          <h1 className={styles.heading}>
-            About <em>MaxDay Studios</em>
-          </h1>
-          <div className={styles.story}>
+        <article className={styles.profile}>
+          <header className={styles.introduction}>
+            <h1>About</h1>
             <p className={styles.intro}>
               MaxDay Studios PTE. LTD. is an AI-native video production platform
               powering in-house and third-party micro-dramas and commercials for
               audiences in the United States and Europe.
             </p>
-            <p>
-              Operating from Singapore and Hong Kong, our team of veteran tech
-              entrepreneurs, creative producers, product managers, and AI engineers
-              combines deep technical expertise with proven consumer scale. Our
-              core leadership previously built Asia’s largest online dating
-              platform, reaching over 250 million registered users.
-            </p>
-            <p>
-              The core members of our team are educated at leading universities in
-              the United States (Cornell, Columbia, Stanford, and Princeton) as
-              well as in Asia.
-            </p>
-          </div>
-          <section className={styles.contact} aria-labelledby="investment-title">
+          </header>
+          <section className={styles.team} aria-labelledby="team-title">
+            <h2 id="team-title">Our team</h2>
+            <div className={styles.story}>
+              <p>
+                Operating from Singapore and Hong Kong, our team of veteran tech
+                entrepreneurs, creative producers, product managers, and AI
+                engineers combines deep technical expertise with proven consumer
+                scale. Our core leadership previously built Asia’s largest
+                online dating platform, reaching over 250 million registered
+                users.
+              </p>
+              <p>
+                The core members of our team are educated at leading
+                universities in the United States (Cornell, Columbia, Stanford,
+                and Princeton) as well as in Asia.
+              </p>
+            </div>
+          </section>
+          <section
+            className={styles.contact}
+            aria-labelledby="investment-title"
+          >
             <h2 id="investment-title">Investment inquiries</h2>
             <a href="mailto:team@maxday.ai">
               team@maxday.ai <ArrowUpRight size={22} aria-hidden="true" />
